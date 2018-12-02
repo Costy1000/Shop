@@ -175,16 +175,15 @@ main{
           /*=============================================================5Star=========================================*/
 
 .rate {
-	
-	
     height: 46px;
 	
 	
 }	
 
 .rate:not(:checked) > input {
-    position:absolute;
-    top:-9999px;
+    position:fixed;
+    top:-9999px;  
+	
 }
 .rate:not(:checked) > label {
     float:right;
@@ -199,7 +198,7 @@ main{
     content: '★'
 }
 .rate > input:checked ~ label {
-    color: #ffc700;    
+    color:  #ffc700;    
 }
 .rate:not(:checked) > label:hover,
 .rate:not(:checked) > label:hover ~ label {
@@ -210,7 +209,7 @@ main{
 .rate > input:checked ~ label:hover,
 .rate > input:checked ~ label:hover ~ label,
 .rate > label:hover ~ input:checked ~ label {
-    color: #c59b08;
+    color: #c59b08  ;
 }
 
 @media(min-width: 750px){
@@ -254,7 +253,7 @@ main{
 	    margin-left: 0.8rem;
 	    margin-right: 0.8rem;
 		position: absolute;
-	    bottom: 90px;
+	    bottom: 90px; 
 	}
 	
 }
