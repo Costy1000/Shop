@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,700" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+ 
+	<title>Shop</title>
+</head>
+<body>
+ <header>
+	<div id="Shop">
+	<img src="assets/logo/logo.png" alt="Logo">	
+	 <!---<h1>Shop</h1> -->
+	</div>
+
+	<div id="tabs">
+	 <div id="container"  onclick="slideFunction(), menuIcon(this)">
+	  <div class="bar1"></div>
+	  <div class ="bar2"></div>
+	  <div class ="bar3"></div>	 
+	 </div>	
+	<div id="button">
+	 <div class="wrapper">
+	  <button class= "grey" onclick="shopFunction('L', this, ' hsl(60, 57%, 75%) ', 'none', 'black')"> Laptops</button><!---
+	  ---><button class="grey" onclick="shopFunction('SM', this, 'hsl(60, 57%, 75%)', 'none', 'black' )">Smarthphones</button><!---
+	  ---><button class="grey" onclick="shopFunction('TB', this, 'hsl(60, 57%, 75%)', 'none', 'black')">Tablets</button><!----
+	  ---><button class="grey" onclick="shopFunction('CS', this, 'hsl(60, 57%, 75%)', 'none', 'black')">Consoles</button><!---
+	  ---><button class="grey" onclick="shopFunction('GS', this, 'hsl(60, 57%, 75%)', 'none', 'black')">Games</button><!----
+	  ---><button class="grey" onclick="shopFunction('TV', this, 'hsl(60, 57%, 75%)', 'none', 'black')">TV</button>	 
+     </div>
+   </div>
+	 <div id="button2" class="button2">	
+	  <button  onclick="shopFunction('L')"> Laptops</button>
+	  <button onclick="shopFunction('SM')">Smarthphones</button>
+	  <button onclick="shopFunction('TB')">Tablets</button>
+	  <button onclicK="shopFunction('CS')">Consoles</button>	
+	  <button onclick="shopFunction('GS')">Games</button>
+	  <button onclick="shopFunction('TV')">TV</button>	
+	 </div>	 
+
+   </div>
+ </header>
+ <main>
+   <div id="SM" class="tab">
+	<div id="first">
+     <div class="column">	
+	   <img src="assets/Smartphones/Samsung-S9.JPG" alt="S9">
+	   <p>Samsung-Galaxy S9 Plus</p>
+	  <div class="rate">
+      <input type="radio" id="star5" name="rate"><label for ="star5"></label>
+	  <input type="radio" id="star4" name="rate"><label for ="star4"></label>
+      <input type="radio" id="star3" name="rate"><label for="star3"></label>
+      <input type="radio" id="star2" name="rate"><label for="star2"></label>
+      <input type="radio" id="star1" name="rate"><label for="star1"></label>
+    </div> 
+	   <p class="price">Price: <span class="green">700$</span></p>
+		 <button class="buy">Buy</button>
+     </div>	
+	 <div class="column">
+	   <img src="assets/Smartphones/Nokia%205.JPG" alt="N5">
+	   <p>Nokia 5</p>
+	   <div class="rate">
+      <input type="radio" id="star6" name="rate"><label for ="star6"></label>
+	  <input type="radio" id="star7" name="rate"><label for ="star7"></label>
+      <input type="radio" id="star8" name="rate"><label for="star8"></label>
+      <input type="radio" id="star9" name="rate"><label for="star9"></label>
+      <input type="radio" id="star10" name="rate"><label for="star10"></label>
+    </div> 
+	   <p class="price">Price: <span class="green">150$</span></p>
+	   <button class="buy">Buy</button> 
+	   
+     </div>
+	 <div class="column">	
+	   <img src="assets/Smartphones/Lg-K9.JPG" alt="LG-K9">
+	   <p>LG-K9</p>
+	   <div class="rate">
+       <input type="radio" id="star5" name="rate" value="5" />
+       <label for="star5" title="text">5 stars</label>
+       <input type="radio" id="star4" name="rate" value="4" />
+       <label for="star4" title="text">4 stars</label>
+       <input type="radio" id="star3" name="rate" value="3" />
+       <label for="star3" title="text">3 stars</label>
+       <input type="radio" id="star2" name="rate" value="2" />
+       <label for="star2" title="text">2 stars</label>
+       <input type="radio" id="star1" name="rate" value="1" />
+       <label for="star1" title="text">1 star</label>
+      </div>  
+	   <p class="price">Price: <span class="green">170$</span></p>
+	   <button class="buy">Buy</button>
+	 </div>
+	 <div class="column">	
+	   <img src="assets/Smartphones/S8.JPG" alt="S8">
+	   <p>Samsung-Galaxy S8 Plus</p>
+	   <div class="rate">
+       <input type="radio" id="star5" name="rate" value="5" />
+       <label for="star5" title="text">5 stars</label>
+       <input type="radio" id="star4" name="rate" value="4" />
+       <label for="star4" title="text">4 stars</label>
+       <input type="radio" id="star3" name="rate" value="3" />
+       <label for="star3" title="text">3 stars</label>
+       <input type="radio" id="star2" name="rate" value="2" />
+       <label for="star2" title="text">2 stars</label>
+       <input type="radio" id="star1" name="rate" value="1" />
+       <label for="star1" title="text">1 star</label>
+      </div> 
+	   <p class="price">Price: <span class="green">650$</span></p>
+	   <button class="buy">Buy</button>
+	 </div>	 
+	</div>  
+	<div id="second">
+	  <div class="column">	
+	   <img src="assets/Smartphones/Allview%20P9%20Energy%20S.JPG" alt="Allview P9">
+	   <p>Allview P9 Energy S</p>
+	   <div class="rate">
+       <input type="radio" id="star5" name="rate" value="5" />
+       <label for="star5" title="text">5 stars</label>
+       <input type="radio" id="star4" name="rate" value="4" />
+       <label for="star4" title="text">4 stars</label>
+       <input type="radio" id="star3" name="rate" value="3" />
+       <label for="star3" title="text">3 stars</label>
+       <input type="radio" id="star2" name="rate" value="2" />
+       <label for="star2" title="text">2 stars</label>
+       <input type="radio" id="star1" name="rate" value="1" />
+       <label for="star1" title="text">1 star</label>
+      </div> 
+	   <p class="price">Price: <span class="green">300$</span></p>
+	   <button class="buy">Buy</button>
+	  </div>
+	  <div class="column">
+	   <img src="assets/Smartphones/iPhone-XS.JPG" alt="iPhone-XS">
+	   <p>Apple iPhone XS, Space Grey</p>
+	   <div class="rate">
+       <input type="radio" id="star5" name="rate" value="5" />
+       <label for="star5" title="text">5 stars</label>
+       <input type="radio" id="star4" name="rate" value="4" />
+       <label for="star4" title="text">4 stars</label>
+       <input type="radio" id="star3" name="rate" value="3" />
+       <label for="star3" title="text">3 stars</label>
+       <input type="radio" id="star2" name="rate" value="2" />
+       <label for="star2" title="text">2 stars</label>
+       <input type="radio" id="star1" name="rate" value="1" />
+       <label for="star1" title="text">1 star</label>
+      </div> 
+	   <p class="price">Price: <span class="green">1200$</span></p>
+	   <button class="buy">Buy</button>
+	  </div>
+	  <div class="column">	
+	   <img src="assets/Smartphones/Xiaomi.JPG" alt="Xiaomi">
+	   <p>Xiaomi Redmi S2</p>
+	   <div class="rate">
+       <input type="radio" id="star5" name="rate" value="5" />
+       <label for="star5" title="text">5 stars</label>
+       <input type="radio" id="star4" name="rate" value="4" />
+       <label for="star4" title="text">4 stars</label>
+       <input type="radio" id="star3" name="rate" value="3" />
+       <label for="star3" title="text">3 stars</label>
+       <input type="radio" id="star2" name="rate" value="2" />
+       <label for="star2" title="text">2 stars</label>
+       <input type="radio" id="star1" name="rate" value="1" />
+       <label for="star1" title="text">1 star</label>
+      </div> 
+	   <p class="price">Price: <span class="green">200$</span></p>
+	   <button class="buy">Buy</button>
+	  </div>
+	  <div class="column">	
+		<img src="assets/Smartphones/iHunt.JPG" alt="iHunt">
+		<p>iHunt S60 Discovery</p>
+		<div class="rate">
+       <input type="radio" id="star5" name="rate" value="5" />
+       <label for="star5" title="text">5 stars</label>
+       <input type="radio" id="star4" name="rate" value="4" />
+       <label for="star4" title="text">4 stars</label>
+       <input type="radio" id="star3" name="rate" value="3" />
+       <label for="star3" title="text">3 stars</label>
+       <input type="radio" id="star2" name="rate" value="2" />
+       <label for="star2" title="text">2 stars</label>
+       <input type="radio" id="star1" name="rate" value="1" />
+       <label for="star1" title="text">1 star</label>
+      </div> 
+		<p class="price">Price: <span class="green">300$</span></p>
+		<button class="buy">Buy</button>
+	  </div>  
+	</div>  
+	<div id="third">
+	  <div class="column">
+		 <img src="assets/Smartphones/X-Cover.JPG" alt="X-Cover">
+		 <p>Samsung Galaxy Xcover 4</p>
+		 <div class="rate">
+       <input type="radio" id="star5" name="rate" value="5" />
+       <label for="star5" title="text">5 stars</label>
+       <input type="radio" id="star4" name="rate" value="4" />
+       <label for="star4" title="text">4 stars</label>
+       <input type="radio" id="star3" name="rate" value="3" />
+       <label for="star3" title="text">3 stars</label>
+       <input type="radio" id="star2" name="rate" value="2" />
+       <label for="star2" title="text">2 stars</label>
+       <input type="radio" id="star1" name="rate" value="1" />
+       <label for="star1" title="text">1 star</label>
+      </div>  
+		 <p class="price">Price: <span class="green">200$</span></p>
+		 <button class="buy">Buy</button>
+	  </div>
+	  <div class="column">
+		<img src="assets/Smartphones/Huawey.JPG" alt="Huawey">
+		<p>Huawei P20, Twilight</p>
+		<div class="rate">
+       <input type="radio" id="star5" name="rate" value="5" />
+       <label for="star5" title="text">5 stars</label>
+       <input type="radio" id="star4" name="rate" value="4" />
+       <label for="star4" title="text">4 stars</label>
+       <input type="radio" id="star3" name="rate" value="3" />
+       <label for="star3" title="text">3 stars</label>
+       <input type="radio" id="star2" name="rate" value="2" />
+       <label for="star2" title="text">2 stars</label>
+       <input type="radio" id="star1" name="rate" value="1" />
+       <label for="star1" title="text">1 star</label>
+      </div> 
+		<p class="price">Price: <span class="green">550$</span></p>
+		<button class="buy">Buy</button>
+	  </div>
+	  <div class="column">
+		<img src="assets/Smartphones/iPhone%206.JPG" alt="iPhone6">
+		<p>Apple iPhone 6</p>
+		<div class="rate">
+       <input type="radio" id="star5" name="rate" value="5" />
+       <label for="star5" title="text">5 stars</label>
+       <input type="radio" id="star4" name="rate" value="4" />
+       <label for="star4" title="text">4 stars</label>
+       <input type="radio" id="star3" name="rate" value="3" />
+       <label for="star3" title="text">3 stars</label>
+       <input type="radio" id="star2" name="rate" value="2" />
+       <label for="star2" title="text">2 stars</label>
+       <input type="radio" id="star1" name="rate" value="1" />
+       <label for="star1" title="text">1 star</label>
+      </div> 
+		<p class="price">Price: <span class="green">400$</span></p>
+		<button class="buy">Buy</button>
+	  </div>
+      <div class="column">
+		 <img src="assets/Smartphones/Samsung%20J5.JPG" alt="Samsung J5">
+		 <p>Samsung Galaxy J5 (2017)</p>
+		 <div class="rate">
+          <input type="radio" id="star5" name="rate" value="5" />
+          <label for="star5" title="text">5 stars</label>
+          <input type="radio" id="star4" name="rate" value="4" />
+          <label for="star4" title="text">4 stars</label>
+          <input type="radio" id="star3" name="rate" value="3" />
+          <label for="star3" title="text">3 stars</label>
+          <input type="radio" id="star2" name="rate" value="2" />
+          <label for="star2" title="text">2 stars</label>
+          <input type="radio" id="star1" name="rate" value="1" />
+          <label for="star1" title="text">1 star</label>
+      </div> 
+		 <p class="price">Price: <span class="green">200$</span></p>
+		 <button class="buy">Buy</button>
+	  </div>
+	</div>  
+   </div>
+   <div id="L" class="tab">
+	 <div id="first2">
+	  <div class="column2">	 
+	   <img src="assets/Laptops/Asus.JPG" alt="Asus">
+	   <p>ASUS A542UF-DM119</p>
+		<div class="rate">
+       <input type="radio" id="star5" name="rate" value="5" />
+       <label for="star5" title="text">5 stars</label>
+       <input type="radio" id="star4" name="rate" value="4" />
+       <label for="star4" title="text">4 stars</label>
+       <input type="radio" id="star3" name="rate" value="3" />
+       <label for="star3" title="text">3 stars</label>
+       <input type="radio" id="star2" name="rate" value="2" />
+       <label for="star2" title="text">2 stars</label>
+       <input type="radio" id="star1" name="rate" value="1" />
+       <label for="star1" title="text">1 star</label>
+      </div>   
+	   <p class="price">Price: <span class="green">550$</span></p>
+	   <button class="buy">Buy</button>
+		  
+	  </div>
+	  <div class="column2">
+		<img src="assets/Laptops/Lenovo.JPG" alt="Lenovo">
+		<p>Lenovo IdeaPad 330-15IGM</p>
+		<div class="rate">
+       <input type="radio" id="star5" name="rate" value="5" />
+       <label for="star5" title="text">5 stars</label>
+       <input type="radio" id="star4" name="rate" value="4" />
+       <label for="star4" title="text">4 stars</label>
+       <input type="radio" id="star3" name="rate" value="3" />
+       <label for="star3" title="text">3 stars</label>
+       <input type="radio" id="star2" name="rate" value="2" />
+       <label for="star2" title="text">2 stars</label>
+       <input type="radio" id="star1" name="rate" value="1" />
+       <label for="star1" title="text">1 star</label>
+      </div> 
+		<p class="price">Price: <span class="green">300$</span></p>
+		<button class="buy">Buy</button>  
+	  </div>
+	  <div class="column2">
+		  <img src="assets/Laptops/HP-OMEN.JPG" alt="HP-OMEN">
+		  <p>Laptop Gaming HP OMEN 15-dc0017nq</p>
+		  <div class="rate">
+       <input type="radio" id="star5" name="rate" value="5" />
+       <label for="star5" title="text">5 stars</label>
+       <input type="radio" id="star4" name="rate" value="4" />
+       <label for="star4" title="text">4 stars</label>
+       <input type="radio" id="star3" name="rate" value="3" />
+       <label for="star3" title="text">3 stars</label>
+       <input type="radio" id="star2" name="rate" value="2" />
+       <label for="star2" title="text">2 stars</label>
+       <input type="radio" id="star1" name="rate" value="1" />
+       <label for="star1" title="text">1 star</label>
+      </div> 
+		  <p class="price">Price: <span class="green">1900$</span></p>
+		  <button class="buy">Buy</button> 
+	 </div>
+	 <div class="column2">
+		 <img src="assets/Laptops/Dell.JPG" alt="Dell">
+		 <p>Dell Inspiron 3567</p>
+		 <div class="rate">
+       <input type="radio" id="star5" name="rate" value="5" />
+       <label for="star5" title="text">5 stars</label>
+       <input type="radio" id="star4" name="rate" value="4" />
+       <label for="star4" title="text">4 stars</label>
+       <input type="radio" id="star3" name="rate" value="3" />
+       <label for="star3" title="text">3 stars</label>
+       <input type="radio" id="star2" name="rate" value="2" />
+       <label for="star2" title="text">2 stars</label>
+       <input type="radio" id="star1" name="rate" value="1" />
+       <label for="star1" title="text">1 star</label>
+      </div> 
+		 <p class="price">Price: <span class="green">400$</span></p>
+		 <button class="buy">Buy</button>
+	 </div>	
+	 </div>
+	 <div id="second2">
+		<div class="column2">
+		  <img src="assets/Laptops/HP.JPG" alt="HP">
+		  <p>Laptop HP 250 G6</p>
+		  <div class="rate">
+       <input type="radio" id="star5" name="rate" value="5" />
+       <label for="star5" title="text">5 stars</label>
+       <input type="radio" id="star4" name="rate" value="4" />
+       <label for="star4" title="text">4 stars</label>
+       <input type="radio" id="star3" name="rate" value="3" />
+       <label for="star3" title="text">3 stars</label>
+       <input type="radio" id="star2" name="rate" value="2" />
+       <label for="star2" title="text">2 stars</label>
+       <input type="radio" id="star1" name="rate" value="1" />
+       <label for="star1" title="text">1 star</label>
+      </div> 
+		  <p class="price">Price: <span class="green">600$</span></p>
+		  <button class="buy">Buy</button>
+		</div>
+		<div class="column2">
+		  <img src="assets/Laptops/Acer.JPG" alt="Acer">
+		  <p>Acer Aspire 5 A515-41G-13NV</p>
+		  <div class="rate">
+          <input type="radio" id="star5" name="rate" value="5" />
+          <label for="star5" title="text">5 stars</label>
+          <input type="radio" id="star4" name="rate" value="4" />
+          <label for="star4" title="text">4 stars</label>
+          <input type="radio" id="star3" name="rate" value="3" />
+          <label for="star3" title="text">3 stars</label>
+          <input type="radio" id="star2" name="rate" value="2" />
+          <label for="star2" title="text">2 stars</label>
+          <input type="radio" id="star1" name="rate" value="1" />
+          <label for="star1" title="text">1 star</label>
+         </div> 
+		  <p class="price">Price: <span class="green">500$</span></p>
+		  <button class="buy">Buy</button>
+		</div>
+		<div class="column2">
+			<img src="assets/Laptops/Gaming-Lenovo.JPG" alt="Gaming-Lenovo">
+			<p>Laptop Gaming Lenovo Legion Y520</p>
+			<div class="rate">
+       <input type="radio" id="star5" name="rate" value="5" />
+       <label for="star5" title="text">5 stars</label>
+       <input type="radio" id="star4" name="rate" value="4" />
+       <label for="star4" title="text">4 stars</label>
+       <input type="radio" id="star3" name="rate" value="3" />
+       <label for="star3" title="text">3 stars</label>
+       <input type="radio" id="star2" name="rate" value="2" />
+       <label for="star2" title="text">2 stars</label>
+       <input type="radio" id="star1" name="rate" value="1" />
+       <label for="star1" title="text">1 star</label>
+      </div> 
+			<p class="price">Price: <span class="green">1000$</span></p>
+		    <button class="buy">Buy</button>
+		</div>
+		<div class="column2">
+		 <img src="assets/Laptops/Apple.JPG" alt="Apple MacbBook">
+		 <p>Apple MacBook Pro 13</p>
+		 <div class="rate">
+       <input type="radio" id="star5" name="rate" value="5" />
+       <label for="star5" title="text">5 stars</label>
+       <input type="radio" id="star4" name="rate" value="4" />
+       <label for="star4" title="text">4 stars</label>
+       <input type="radio" id="star3" name="rate" value="3" />
+       <label for="star3" title="text">3 stars</label>
+       <input type="radio" id="star2" name="rate" value="2" />
+       <label for="star2" title="text">2 stars</label>
+       <input type="radio" id="star1" name="rate" value="1" />
+       <label for="star1" title="text">1 star</label>
+      </div> 
+		 <p class="price">Price: <span class="green">1800$</span></p>
+		 <button class="buy">Buy</button>
+		</div>
+	 </div>
+	 <div id="third2">
+		<div class="column2">
+			<img src="assets/Laptops/Myria.JPG" alt="Myria">
+			<p>MYRIA MY8306</p>
+			<div class="rate">
+       <input type="radio" id="star5" name="rate" value="5" />
+       <label for="star5" title="text">5 stars</label>
+       <input type="radio" id="star4" name="rate" value="4" />
+       <label for="star4" title="text">4 stars</label>
+       <input type="radio" id="star3" name="rate" value="3" />
+       <label for="star3" title="text">3 stars</label>
+       <input type="radio" id="star2" name="rate" value="2" />
+       <label for="star2" title="text">2 stars</label>
+       <input type="radio" id="star1" name="rate" value="1" />
+       <label for="star1" title="text">1 star</label>
+      </div>  
+			<p class="price">Price: <span class="green">250$</span></p>
+			<button class="buy">Buy</button>
+		</div>
+		<div class="column2">
+		  <img src="assets/Laptops/Kiano.JPG" alt="Kiano">
+		  <p>Kiano SlimNote 14.2</p>
+		  <div class="rate">
+       <input type="radio" id="star5" name="rate" value="5" />
+       <label for="star5" title="text">5 stars</label>
+       <input type="radio" id="star4" name="rate" value="4" />
+       <label for="star4" title="text">4 stars</label>
+       <input type="radio" id="star3" name="rate" value="3" />
+       <label for="star3" title="text">3 stars</label>
+       <input type="radio" id="star2" name="rate" value="2" />
+       <label for="star2" title="text">2 stars</label>
+       <input type="radio" id="star1" name="rate" value="1" />
+       <label for="star1" title="text">1 star</label>
+      </div> 
+		  <p class="price">Price: <span class="green">350$</span></p>
+		  <button class="buy">Buy</button>
+		</div>
+		<div class="column2">
+		  <img src="assets/Laptops/Gaming-Acer.JPG" alt="Gaming-Acer">
+		  <p>Laptop Gaming Acer Nitro 5 AN515-51-72B5</p>
+		  <div class="rate">
+           <input type="radio" id="star5" name="rate" value="5" />
+           <label for="star5" title="text">5 stars</label>
+           <input type="radio" id="star4" name="rate" value="4" />
+           <label for="star4" title="text">4 stars</label>
+           <input type="radio" id="star3" name="rate" value="3" />
+           <label for="star3" title="text">3 stars</label>
+           <input type="radio" id="star2" name="rate" value="2" />
+           <label for="star2" title="text">2 stars</label>
+           <input type="radio" id="star1" name="rate" value="1" />
+           <label for="star1" title="text">1 star</label>
+          </div> 
+		  <p class="price">Price: <span class="green">1000$</span></p>
+		  <button class="buy">Buy</button>
+		</div>
+		<div class="column2">
+			<img src="assets/Laptops/KRUGER&MATZ.JPG" alt="KRUGER&MATZ">
+			<p>Ultrabook KRUGER&MATZ Explore 1403</p>
+			<div class="rate">
+       <input type="radio" id="star5" name="rate" value="5" />
+       <label for="star5" title="text">5 stars</label>
+       <input type="radio" id="star4" name="rate" value="4" />
+       <label for="star4" title="text">4 stars</label>
+       <input type="radio" id="star3" name="rate" value="3" />
+       <label for="star3" title="text">3 stars</label>
+       <input type="radio" id="star2" name="rate" value="2" />
+       <label for="star2" title="text">2 stars</label>
+       <input type="radio" id="star1" name="rate" value="1" />
+       <label for="star1" title="text">1 star</label>
+      </div> 
+			<p class="price">Price: <span class="green">300$</span></p>
+			<button class="buy">Buy</button>
+		</div>
+	 </div>
+	 
+   </div>
+   <div id="TB" class="tab">
+	  <div id="first3">
+		 <div class="column3">
+			<img src="assets/Tablets/Samsung-Galaxy%20Tab.JPG" alt="Samsung Galaxy Tab">
+			<p>Samsung Galaxy Tab E T560, 9.6</p>
+			 <div class="rate">
+       <input type="radio" id="star5" name="rate" value="5" />
+       <label for="star5" title="text">5 stars</label>
+       <input type="radio" id="star4" name="rate" value="4" />
+       <label for="star4" title="text">4 stars</label>
+       <input type="radio" id="star3" name="rate" value="3" />
+       <label for="star3" title="text">3 stars</label>
+       <input type="radio" id="star2" name="rate" value="2" />
+       <label for="star2" title="text">2 stars</label>
+       <input type="radio" id="star1" name="rate" value="1" />
+       <label for="star1" title="text">1 star</label>
+      </div> 
+			<p class="price">Price: <span class="green">160$</span></p>
+			<button class="buy">Buy</button>
+		 </div>
+		 <div class="column3">
+			<img src="assets/Tablets/Allview%20Viva.JPG" alt="Allview Viva">
+			<p>Allview Viva H701, 7</p>
+			<p class="price">Price: <span class="green">80$</span></p>
+			<button class="buy">Buy</button>
+		 </div>
+		 <div class="column3">
+			 <img src="assets/Tablets/Apple%209.7.JPG" alt="Apple Ipad 9.7">
+			 <p>Apple iPad 9.7</p>
+			 <p class="price">Price: <span class="green">400$</span></p>
+			 <button class="buy">Buy</button>
+		 </div>
+		 <div class="column3">
+			<img src="assets/Tablets/Huawey%20MediaPad.JPG" alt="Huawey Media-Pad">
+			<p>Huawei MediaPad T3 7, 7</p>
+			<p class="price">Price: <span class="green">120$</span></p>
+			<button class="buy">Buy</button>
+		 </div>
+		 
+	  </div>
+	  <div id="second3">
+		  <div class="column3">
+			 <img src="assets/Tablets/Samsung-Tab.JPG" alt="Samsung-Tab">
+			 <p>Samsung Tab A T595</p>
+			 <p class="price">Price: <span class="green">420$</span></p>
+			 <button class="buy">Buy</button>
+		  </div>
+		  <div class="column3">
+			  <img src="assets/Tablets/Vonino.JPG" alt="Vonino">
+			  <p>Vonino Xavy G7, 7</p>
+			  <p class="price">Price:<span class="green">150$</span> </p>
+			  <button class="buy">Buy</button>
+		  </div>
+		  <div class="column3">
+			  <img src="assets/Tablets/iPad%20Mini.JPG" alt="iPad Mini">
+			  <p>Apple iPad mini 4</p>
+			  <p class="price">Price: <span class="green">500$</span></p>
+			  <button class="buy">Buy</button>
+		  </div>
+		  <div class="column3">
+			<img src="assets/Tablets/Archos.JPG" alt="Archos">
+			<p>Archos Access 70 3G</p>
+			<p class="price">Price: <span class="green">100$</span></p>
+			<button class="buy">Buy</button>
+		  </div>
+	   </div>
+	   <div id="third3">
+		  <div class="column3">
+			  <img src="assets/Tablets/ZenPad.JPG" alt="ZenPad">
+			  <p>ASUS ZenPad 10 Z301M, 10.1</p>
+			  <p class="price">Price: <span class="green">250$</span></p>
+			  <button class="buy">Buy</button>
+		  </div> 
+		  <div class="column3">
+			  <img src="assets/Tablets/MeadiaPad.JPG" alt="MediaPad">
+			  <p>Huawei Mediapad M3 Youth/Lite, 10.1</p>
+			  <p class="price">Price: <span class="green">300$</span></p>
+			  <button class="buy">Buy</button>
+		  </div>
+		  <div class="column3">
+			  <img src="assets/Tablets/Surface.JPG" alt="Surface">
+			  <p>Microsoft Surface Go, 10</p>
+			  <p class="price">Price: <span class="green">520$</span></p>
+			  <button class="buy">Buy</button>
+		  </div>
+		  <div class="column3">
+			  <img src="assets/Tablets/Lenovo.JPG" alt="Lenovo">
+			  <p>Lenovo Tab Yoga 3 YT3-850F, 8</p>
+			  <p class="price">Price: <span class="green">200$</span></p>
+			  <button class="buy">Buy</button>
+		  </div>
+	  </div>
+   </div>
+   <div id="CS" class="tab">
+	 <div id="first4">
+	  <div class="column4">	 
+		<img src="assets/Consoles/PlayStation%204%20Pro.JPG" alt="Playstation 4-Pro">
+		<p>Sony Playstation 4 PRO ( NEO), 1 TB</p>
+		<p class="price">Price: <span class="green">470$</span></p>
+		<button class="buy">Buy</button>
+	  </div>
+	  <div class="column4">
+		  <img src="assets/Consoles/Xbox-One%20Slim.JPG" alt="Xbox-One Slim">
+		  <p>Microsoft Xbox One Slim 500 GB</p>
+		  <p class="price">Price: <span class="green">300$</span></p>
+		  <button class="buy">Buy</button>
+	  </div>
+	  <div class="column4">
+		  <img src="assets/Consoles/Sony%20Playstation%20Slim%20500gb.JPG" alt="PlayStation-Slim">
+		  <p>Sony Playstation 4 SLIM, 500 GB</p>
+		  <p class="price">Price: <span class="green">300$</span></p>
+		  <button class="buy">Buy</button>
+	  </div>
+	  <div class="column4">
+		<img src="assets/Consoles/Nintendo.JPG" alt="Nintendo">
+		<p>Consola Nintendo Switch</p>
+		<p class="price">Price: <span class="green">400$</span></p>
+		<button class="buy">Buy</button>
+	  </div>
+	 </div>
+	 <div id="second4">
+		<div class="column4">
+		 <img src="assets/Consoles/Xbox-One%20+%20Assasin.JPG" alt="Xbox-One + Assasin">
+	     <p>Microsoft Xbox One Slim 500 GB +  Assassin's Creed Origins Game</p>
+		 <p class="price">Price: <span class="green">300$</span></p>
+		 <button class="buy">Buy</button>
+		</div>
+		<div class="column4">
+			<img src="assets/Consoles/PlayStation-3games.JPG" alt="PlayStation + 3games">
+			<p>PlayStation 4 1TB Slim plus Ratchet&Clank, Uncharted 4 and  The Last Of Us</p>
+			<p class="price">Price: <span class="green">400$</span></p>
+			<button class="buy">Buy</button>
+		</div>
+		<div class="column4">
+			<img src="assets/Consoles/PS%20+%20FIFA19.JPG" alt="PS + FIFA19">
+			<p>Sony Playstation 4 SLIM, 1 TB plus FIFA 19 Game </p>
+			<p class="price">Price: <span class="green">500$</span></p>
+			<button class="buy">Buy</button>
+		</div>
+		<div class="column4">
+			<img src="assets/Consoles/PS+%20Spider-Man.JPG" alt="PS + Spider-Man">
+			<p>PlayStation 4 1TB Slim Limited Edition + Spider-Man game</p>
+			<p class="price">Price: <span class="green">500$</span></p>
+			<button class="buy">Buy</button>
+		</div>
+	 </div>
+	 <div id="third4">
+		<div class="column4">
+		  <img src="assets/Consoles/Serioux.JPG" alt="Serious">
+		  <p>Serioux, screen 2.7, 200 games included</p>
+		  <p class="price">Price: <span class="green">40$</span></p>
+		  <button class="buy">Buy</button>
+		</div>
+		<div class="column4">
+			<img src="assets/Consoles/Sega%20Mega.JPG" alt="Sega Mega">
+			<p>Sega Mega Drive Flashback Hd With Wireless Controllers</p>
+			<p class="price">Price: <span class="green">130$</span></p>
+			<button class="buy">Buy</button>
+		</div>
+		<div class="column4">
+			<img src="assets/Consoles/Retro%20Md.JPG" alt="Retro Md">
+			<p>Retro 16-bit MD</p>
+			<p class="price">Price: <span class="green">50$</span></p>
+			<button class="buy">Buy</button>
+		</div>
+		 <div class="column4">
+			 <img src="assets/Consoles/Retron.JPG" alt="Retron">
+			 <p>Retron 1 Hd Gaming For Pal/Ntsc Nes Cartridges</p>
+			 <p class="price">Price: <span class="green">80$</span></p>
+			 <button class="buy">Buy</button>
+		 </div>
+	 </div> 
+   </div>
+   <div id="GS" class="tab">
+	   <div id="first5">
+		  <div class="column5">
+			<img src="assets/Games/Fifa%2019.JPG" alt="Fifa19">
+			<p>Fifa 19 for Pc</p>
+			<p class="price">Price: <span class="green">50$</span></p>
+			<button class="buy">Buy</button>
+		  </div>
+		  <div class="column5">
+			<img src="assets/Games/Read-Dead.JPG" alt="Read Dead Redemption">
+			<p>Red Dead Redemption 2 for Xbox One</p>
+			<p class="price">Price: <span class="green">50$</span></p>
+			<button class="buy">Buy</button>
+		  </div>
+		  <div class="column5">
+			  <img src="assets/Games/GTA%20V.JPG" alt="GTA V">
+			  <p>Grand Theft Auto V for PC</p>
+			  <p class="price">Price: <span class="green">30$</span></p>
+			  <button class="buy">Buy</button>
+		  </div>
+		  <div class="column5">
+			 <img src="assets/Games/Assasin%20Creed%20Odisey.JPG" alt="Assasin Creed Odyssey">
+			 <p>Assassins Creed Odyssey for Xbox One</p>
+			 <p class="price">Price: <span class="green">40$</span></p>
+			 <button class="buy">Buy</button>
+		  </div>
+	   </div>
+	   <div id="second5">
+		   <div class="column5">
+			   <img src="assets/Games/FIFA%2017.JPG" alt="FIFA 17">
+			   <p>FIFA 17 for Xbox One</p>
+			   <p class="price">Price: <span class="green">20$</span></p>
+			   <button class="buy">Buy</button>
+		   </div>
+		   <div class="column5">
+			   <img src="assets/Games/Horizon.JPG" alt="Horizon">
+			   <p>Horizon: Zero Dawn for PlayStation 4</p>
+			   <p class="price">Price: <span class="green">20$</span></p>
+			   <button class="buy">Buy</button>
+		   </div>
+		   <div class="column5">
+			   <img src="assets/Games/Troll%20and%20I.JPG" alt="Troll and I">
+			   <p>Troll And I for Ps4</p>
+			   <p class="price">Price: <span class="green">10$</span></p>
+			   <button class="buy">Buy</button>
+		   </div>
+		   <div class="column5">
+			   <img src="assets/Games/Injustice.JPG" alt="Injustice">
+			   <p> Injustice 2 Legendary Steelbook Edition for PS4</p>
+			   <p class="price">Price: <span class="green">50$</span></p>
+			   <button class="buy">Buy</button>
+		   </div>
+	   </div>
+	   <div id="third5">
+		   <div class="column5">
+			  <img src="assets/Games/Painkiller.JPG" alt="Painkiller">
+			  <p>Painkiller Hell & Damnation Uncut for PS3</p>
+			  <p class="price">Price: <span class="green">20$</span></p>
+			  <button class="buy">Buy</button>
+		   </div>
+		   <div class="column5">
+			   <img src="assets/Games/Extinction.JPG" alt="Extinction">
+			   <p>Extinction for Ps4</p>
+			   <p class="price">Price: <span class="green">15$</span></p>
+			   <button class="buy">Buy</button>
+		   </div>
+		   <div class="column5">
+			   <img src="assets/Games/Little%20Nightmares.JPG" alt="Little Nightmares">
+			   <p>Little Nightmares Deluxe Edition for Ps4</p>
+			   <p class="price">Price: <span class="green">40$</span></p>
+			   <button class="buy">Buy</button>
+		   </div>
+		   <div class="column5">
+			   <img src="assets/Games/Nascar.JPG" alt="Nascar">
+			   <p>Nascar Heat 3 for  Ps4</p>
+			   <p class="price">Price:<span class="green">60$</span> </p>
+			   <button class="buy">Buy</button>
+		   </div>
+		   
+	   </div>
+	   
+   </div>
+   <div id="TV" class="tab">
+	  <div id="first6">
+		 <div class="column5">
+		   <img src="assets/TV/Led%20Star-Light.JPG" alt="Star-Light">
+		   <p>LED Star-Light, 80 cm, 32DM3500, HD</p>
+		   <p class="price">Price:<span class="green">150$</span> </p>
+		   <button class="buy">Buy</button>
+		 </div>
+		 <div class="column5">
+		   <img src="assets/TV/Smart%20Philips.JPG" alt="Smart-Philips">
+		   <p>LED Smart Philips, 164 cm, 65PUS6503/12, 4K Ultra HD</p>
+		   <p class="price">Price:<span class="green">850$</span> </p>
+		   <button class="buy">Buy</button>
+		 </div>
+		 <div class="column5">
+			<img src="assets/TV/Led%20Nei.JPG" alt="Led Nei">
+			<p> LED Nei, 48 cm, 19NE4000, HD</p>
+			<p class="price">Price:<span class="green">150$</span> </p>
+			<button class="buy">Buy</button>
+		 </div>
+		 <div class="column5">
+			<img src="assets/TV/Led%20Samsung.JPG" alt="Led Samsung">
+			<p>LED Samsung, 80 cm, 32M4002, HD</p>
+			<p class="price">Price:<span class="green">200$</span> </p>
+			<button class="buy">Buy</button>
+		 </div>
+	  </div>
+	  <div id="second6">
+		<div class="column5">
+			<img src="assets/TV/Smart%20Sony.JPG" alt="Smart Sony">
+			<p>LED Smart Sony, 101.4 cm, 40WE660, Full HD</p>
+			<p class="price">Price:<span class="green"> 400$</span></p>
+			<button class="buy">Buy</button>
+		</div>
+		<div class="column5">
+			<img src="assets/TV/Led%20Curbat.JPG" alt="Curbat">
+			<p>LED Curbat Smart Samsung, 123 cm, 49MU6202, 4K Ultra HD</p>
+			<p class="price">Price:<span class="green">850$</span> </p>
+			<button class="buy">Buy</button>
+		</div>
+		<div class="column5">
+		  <img src="assets/TV/Led%20Portabil.JPG" alt="Led Portabil">
+		  <p>LED portabil, tv 12v, dvbc/dvbt2, DenisNetwork 47cm</p>
+		  <p class="price">Price:<span class="green">150$</span> </p>
+		  <button class="buy">Buy</button>
+		</div>
+		<div class="column5">
+			<img src="assets/TV/Smart%20Toshiba.JPG" alt="Smart Toshiba">
+			<p>LED Smart Toshiba, 81 cm, 32W2863DG, HD</p>
+		    <p class="price">Price:<span class="green">230$</span> </p>
+			<button class="buy">Buy</button>
+		</div>
+	  </div>
+	  <div id="third6">
+		 <div class="column5">
+			<img src="assets/TV/Led%2032.JPG" alt="Led 32">
+			<p>LED 32, meister Hausgerate, 32DN6, HD, LED TV, 3D</p>
+			<p class="price">Price:<span class="green">150$</span> </p>
+			<button class="buy">Buy</button>
+		 </div>
+		 <div class="column5">
+			<img src="assets/TV/Led%20Akai.JPG" alt="Led Akai">
+			<p>LED TV AKAI LT-3228ADTC</p>
+			<p class="price">Price:<span  class="green"> 150$</span></p>
+			<button class="buy">Buy</button>
+		 </div>
+		 <div class="column5">
+			<img src="assets/TV/Led%20LG.JPG" alt="Led LG">
+			<p>LED LG 43UK6400 Smart Tv</p>
+			<p class="price">Price:<span class="green">550$</span></p>
+			<button class="buy">Buy</button>
+		 </div>
+		 <div class="column5">
+			<img src="assets/TV/Toshiba.JPG" alt="Toshiba">
+			<p>Toshiba Smart TV FULL HD </p>
+			<p class="price">Price: <span  class="green">600$</span></p>
+			<button class="buy">Buy</button>
+		 </div>
+	  </div>
+   </div>
+	
+   
+ </main>	
+ <script>
+	function shopFunction (pageName, el,  color, border ,color2) {
+		var i, tab, grey;
+		tab = document.getElementsByClassName("tab");
+		for(i= 0; i<tab.length; i++){
+			tab[i].style.display="none";
+		}
+		 grey = document.getElementsByClassName("grey");
+		
+		for(i= 0; i<grey.length; i++) {
+			grey[i].style.backgroundColor = "";
+			grey[i].style.border = "";
+			grey[i].style.color = "";
+		}
+		document.getElementById(pageName).style.display = "block";
+		el.style.backgroundColor = color;
+		el.style.border = border;
+		el.style.color = color2
+	} 
+	function menuIcon(x){
+		
+		x.classList.toggle("change"); 
+	   
+	    
+	}
+	
+	/*$(document).ready(function(){
+    $(".bar1").click(function(){
+        $(".button2").slideDown("slow");
+		 $(".button2").hide(1);
+    });
+	
+}); 
+	$(document).ready(function(){
+    $(".change").click(function(){
+        $(".button2").slideUp("slow");
+    });
+	 
+});  */
+	
+	
+function slideFunction() {
+	var elem = document.getElementById("button2"); 
+    elem.classList.toggle('hide');
+}
+   	  			
+		
+ </script>	
+</body>
+</html>

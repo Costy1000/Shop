@@ -1,0 +1,379 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   
+}
+body{
+	width: 100%;
+	
+	background-color: hsl(60, 57%, 75%); 
+	
+}
+#Shop{
+	width: 100%;
+	background: linear-gradient(to right, #4d4dff , #47d147);
+	
+	
+}
+header h1{
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	padding-bottom: 0.5rem;
+	padding-top: 0.5rem;
+}
+header img{
+	max-width: 200px;
+	max-height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+#tabs{
+	width: 100%;
+	overflow: hidden;
+	
+	/*background-color: rgb(223, 159, 188);  */
+	background-color: #5f5f5f;
+	border: none;
+    
+	
+	
+	
+}
+#container{
+	display: none;
+}
+#button{
+	max-width: 750px;
+	
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	
+	
+	
+	
+	
+	
+	
+}
+.wrapper{
+	padding-left: 4rem;
+	padding-right: 4rem;
+	
+} 
+
+#tabs button{
+	font-size: 1.0625rem;
+	
+	border: none;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	outline: none;
+	background: transparent;
+	cursor: pointer;
+	
+	
+	color: white;
+	
+}
+
+#button button:hover, #button2 button:hover{
+	background-color: hsla(120, 100%, 85%, 50%);
+}
+
+
+
+main{
+	width: 100%;
+	
+	
+}
+.tab{
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+	
+
+	
+}
+#L, #SM, #TB, #CS, #GS, #TV{
+	font-family: 'Noto Sans TC', sans-serif;
+	
+}
+
+#L img, #SM img, #TB img, #CS img, #GS img, #TV img{
+	max-width: 150px;
+	max-height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	padding-bottom: 0.5rem;
+	padding-top: 0.5rem;
+	
+	
+}
+/*#first, #second, #third{
+	max-width: 600px;
+}
+#first2, #second2, #third2{
+	max-width: 700px;
+	
+}
+#first3, #second3, #third3, #first4, #second4, #third4, #first5, #second5, #third5, #first6, #second6, #third6{
+	max-width: 750px;
+} */
+
+#first, #second, #third, #first2, #second2, #third2, #first3, #second3, #third3, #first4, #second4, #third4, #first5, #second5, #third5, #first6, #second6, #third6{
+	max-width: 700px;
+	height: 350px;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	
+}
+
+
+
+
+
+
+
+
+.column p, .column2 p, .column3 p, .column4 p, .column5 p{
+	padding-right: 0.3rem;
+	padding-left: 0.3rem;
+	font-size: 14px;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+	
+	
+}
+
+.column, .column2, .column3, .column4, .column5{
+	background-color: white;
+
+	text-align: center;
+	
+	overflow: hidden;
+	position: relative;
+	margin: 0.5rem;
+	
+	
+   
+}
+          /*=============================================================5Star=========================================*/
+
+.rate {
+	
+	
+    height: 46px;
+	
+	
+}	
+
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width: 1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:20px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★'
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+@media(min-width: 750px){
+	
+#first::after, #second::after, #third::after, #first2::after, #second2::after, #third2::after, #first3::after, #second3::after, #third3::after, #first4::after, #second4::after, #third4::after, #first5::after, #second5::after, #first6::after, #second6::after, #third6::after {
+	content="";
+	clear: both;
+	display: table;
+	
+	
+
+}
+	.column, .column2, .column3, .column4, .column5{
+	background-color: white;
+	width: 150px;
+	float: left;
+	height: 100%;
+   
+}
+	.price{
+	position: absolute;
+	white-space: nowrap;
+	bottom: 46px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}  
+	.buy{
+		position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 5px;	
+	}
+#button2{
+ display: none;
+}
+	.rate{
+		float: left;
+		padding: 0 10px;
+	    margin-left: 0.8rem;
+	    margin-right: 0.8rem;
+		position: absolute;
+	    bottom: 90px;
+	}
+	
+}
+
+
+#SM, #TB, #CS, #GS , #TV{
+	display: none;
+}
+.green{
+	color: hsl(120, 100%, 34%);
+}
+.buy {
+	border: none;
+	background-color: hsl(216, 100%, 65%);
+	font-size: 17px;
+	padding: 5px;
+	width: 50px;
+	
+	color: #ffffff;
+	
+}
+
+      /*===================================================================================mobile===============================*/
+@media(max-width: 750px){
+	
+	#container{
+		cursor: pointer;
+		display: block;
+		
+	}
+	.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px;
+    transition: 0.4s;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	display: block;
+	
+}
+	#button{
+		
+		display: none;
+		
+	}
+	.button2{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	transition: all 0.5s ease-in-out;
+}
+	.button2 button{
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		text-align: center;
+		
+		
+		
+	}
+	
+	.change{
+		display: block;
+	}
+	
+	.change .bar1 {
+	 
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+	
+} 
+
+	
+
+	#first, #second, #third, #first2, #second2, #third2, #first3, #second3, #third3, #first4, #second4, #third4, #first5, #second5, #third5, #first6, #second6, #third6   {
+		width: 200px;
+		height: 100%;
+		overflow: hidden;
+	
+	}
+	.column, column2, .column3, .column4, .column5{
+		height: 100%;
+		
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		overflow: hidden;
+	}
+	.price{
+     padding-top: 1rem;
+	 padding-bottom: 1rem;	
+}
+	.buy{
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+	.hide{
+		height: 13.75rem;
+		max-width: 1000px;
+		overflow: hidden;
+	}
+	.rate{
+	  margin-right: auto;
+	  margin-left: auto;
+	  display: block;
+	  margin-left: 3rem;
+	  margin-right: 3rem;
+	}
+}
