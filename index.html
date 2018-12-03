@@ -1031,7 +1031,7 @@
                 <input type="radio" id="star360" name="rate"><label for="star360"></label>
               </div>  
 			<p class="price">Price: <span  class="green">600$</span></p>
-			<button class="buy" onclick="openWin()">Buy</button>
+			<button class="buy" onclick="openWin()" >Buy</button>
 		 </div>
 	  </div>
    </div>
@@ -1134,10 +1134,14 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 	 
- function openWin() {
-  window.open("https://www.w3schools.com");
-}
+ 
 
+
+function openWin() {
+	var windowObjectReference;
+var strWindowFeatures = "menubar=yes,location=yes,resizable=yes,scrollbars=yes,status=yes";
+  windowObjectReference = window.open("http://127.0.0.1:63489/Log%20in/log.html", "CNN_WindowName", strWindowFeatures);
+}
 
 
 
