@@ -1,7 +1,9 @@
+
 *{
    box-sizing: border-box;
    margin: 0;
    padding: 0;
+   font-weight: 400;
    
 }
 body, html{
@@ -99,7 +101,7 @@ header img{
 }
 
 #button button:hover, #button2 button:hover{
-	background-color: hsla(120, 100%, 85%, 50%);
+	background-color: hsla(120, 100%, 85%, .5);
 }
 
 
@@ -118,9 +120,6 @@ footer{
 	font-weight: 400;
 }
 
-footer sup{
-	vertical-align: baseline;
-}
 
 #L, #SM, #TB, #CS, #GS, #TV{
 	font-family: 'Noto Sans TC', sans-serif;
@@ -131,7 +130,7 @@ footer sup{
 	height: 100%;
 }
 
-#L img, #SM img, #TB img, #CS img, #GS img, #TV img{
+#L img, #SM img, #TB img, #CS img, #GS img, #TV img {
 	max-width: 150px;
 	max-height: 200px;
 	margin-right: auto;
@@ -311,8 +310,8 @@ footer sup{
 .green{
 	color: hsl(120, 100%, 34%);
 }
-.active2{
-	background-color: hsla(120, 100%, 85%, 50%);
+.active2 {
+	background-color: hsla(120, 100%, 85%, .5);
 }
 .buy {
 	border: none;
@@ -378,8 +377,6 @@ footer sup{
   cursor: pointer;
   position: absolute;
   top: 50%;
-  
- 
   width: auto;
   padding: 16px;
   margin-top: -22px;
@@ -532,14 +529,14 @@ footer sup{
 		margin-right: 1rem;
 	}
 
+
 	
-	
-}
+
 	.prev{
-		left: -50px;
+		left: -40px;
 	}
 	.next{
-		right: -50px;
-	} 
-}
+		right: -40px;
+	}  
 
+}
