@@ -250,6 +250,9 @@ footer sup{
     
  
 }
+	.column4{
+		height: 370px;
+	}
 	
 	.price{
 	position: absolute;
@@ -523,12 +526,7 @@ footer sup{
 		max-height: 300px;
 	}
 	
-	/*.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-  
-
-}  */
+	
 	.prev, .next{
 		margin-left: 1rem;
 		margin-right: 1rem;
