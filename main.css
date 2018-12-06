@@ -11,7 +11,7 @@ body{
 	width: 100%;
     height: 100vh;
 	background-color: hsl(60, 57%, 75%); 
-	
+	font-family: 'Merriweather', serif;
 }
 
 #Shop{
@@ -38,7 +38,7 @@ header img{
 	width: 100%;
 	overflow: hidden;
 	
-	/*background-color: rgb(223, 159, 188);  */
+	
 	background-color: #5f5f5f;
 	border: none;
     
@@ -50,7 +50,7 @@ header img{
 	display: none;
 }
 #button{
-	max-width: 750px;
+	width: 800px;
 	
 	margin-right: auto;
 	margin-left: auto;
@@ -64,10 +64,14 @@ header img{
 	
 }
 .wrapper{
-	padding-left: 4rem;
-	padding-right: 4rem;
+	width: 600px;
+	overflow: hidden;
 	
-} 
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+ 
 
 #tabs button{
 	font-size: 1.0625rem;
@@ -78,12 +82,20 @@ header img{
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
 	outline: none;
-	background: transparent;
+	
 	cursor: pointer;
 	
 	
-	color: white;
 	
+	
+}
+.grey {
+	background-color: transparent;
+	color: white;
+}
+.active{
+	background-color:  hsl(60, 57%, 75%); 
+	color: black;
 }
 
 #button button:hover, #button2 button:hover{
@@ -92,16 +104,31 @@ header img{
 
 
 
-main{
+
+footer{
 	width: 100%;
 	
-	
-	
+	background-color: #5f5f5f;
+	height: 3rem;
+	color: white;
+	text-align: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+footer sup{
+	vertical-align: baseline;
 }
 
 #L, #SM, #TB, #CS, #GS, #TV{
 	font-family: 'Noto Sans TC', sans-serif;
-	
+	width: 100%;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	overflow: hidden;
+	height: 100%;
 }
 
 #L img, #SM img, #TB img, #CS img, #GS img, #TV img{
@@ -112,26 +139,36 @@ main{
 	display: block;
 	padding-bottom: 0.5rem;
 	padding-top: 0.5rem;
-	
-	
-}
-
-.tab{
-	max-width: 1000px;
-	
-	margin-right: auto;
-	margin-left: auto;
-	display: block;
-	overflow: hidden;
-	margin-top: 3rem;
-	margin-bottom: 3rem;
-	
+	cursor: pointer;
 	
 }
 
 
+#first, #second, #third, #first2, #second2, #third2, #first3, #second3, #third3,#first4, #second4, #third4, #first5, #second5, #third5, #first6, #second6, #third6  {	
+		height: 370px;
+		width: 1000px;
+		margin-right: auto;
+	    margin-left: auto;
+	    display: block;
+	    
+	    padding-left: 4rem;
+	    padding-right: 4rem;
+	    
+	   
+	   
+	}
 
-
+@media(max-width:950px){
+	#first, #second, #third, #first2, #second2, #third2, #first3, #second3, #third3,#first4, #second4, #third4, #first5, #second5, #third5, #first6, #second6, #third6  {	
+		height: 370px;
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		
+	   
+	}
+}
 
 
 
@@ -155,7 +192,7 @@ main{
 	margin-right: 0.5rem;
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
-	
+	box-shadow: 5px 5px 3px 3px   hsl(0, 0%, 60%) ;
 	
    
 }
@@ -202,23 +239,15 @@ main{
 
 @media(min-width: 750px){
 	
-/*#first::after, #second::after, #third::after, #first2::after, #second2::after, #third2::after, #first3::after, #second3::after, #third3::after, #first4::after, #second4::after, #third4::after, #first5::after, #second5::after, #first6::after, #second6::after, #third6::after {
-	content: " ";
-	clear: both;
-	display: table;
-	
-	
-	
-	
 
-} */
 	.column, .column2, .column3, .column4, .column5{
 	background-color: white;
 	width: 200px;
 	float: left;
-	height: 100%;
 	overflow: hidden;
-    box-shadow: 5px 5px 3px 3px   hsl(0, 0%, 60%) ;
+	height: 350px;
+	
+    
  
 }
 	
@@ -250,17 +279,25 @@ main{
 		
 	}
 	
-	#first, #second, #third, #first2, #second2, #third2, #first3, #second3, #third3,#first4, #second4, #third4, #first5, #second5, #third5, #first6, #second6, #third6  {	
-		height: 370px;
-		width: 800x;
-		margin-left: 3rem;
-		margin-right: 3rem;
-	   
-	}
+	
 	.column4 p{
 		font-size: 13px;
+	}
+	.modal{
+		width: 500px;
+	    height: 400px; 
+	}
+	.prev{
+		left: -50px;
+	}
+	.next{
+		right: -50px;
 	} 
+	.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+	color: white;
 	
+}
 	
 }
 
@@ -270,6 +307,9 @@ main{
 }
 .green{
 	color: hsl(120, 100%, 34%);
+}
+.active2{
+	background-color: hsla(120, 100%, 85%, 50%);
 }
 .buy {
 	border: none;
@@ -301,27 +341,28 @@ main{
    content: '\f062';
    font-family: fontAwesome;
 }
+
 .modal{
-	width: 500px;
-	height: 400px; 
+	
+	 
 	position: fixed;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%); 
 	background-color: white;
 	display: none;
+	
 	
 	
 }
 
 .slideshow-container{
 	width: 400px;
-	
 	position: relative;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);  
 }
 .modal img{
 	width: 100%;
@@ -334,25 +375,22 @@ main{
   cursor: pointer;
   position: absolute;
   top: 50%;
+  
+ 
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
 
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-	
-}
+
+
+
 .close {
     position: absolute;
     top: -10px;
@@ -377,6 +415,7 @@ main{
 	#container{
 		cursor: pointer;
 		display: block;
+		padding-top: 0.5rem;
 		
 	}
 	.bar1, .bar2, .bar3 {
@@ -434,21 +473,22 @@ main{
 	
 } 
 
-	
-
-	#first, #second, #third, #first2, #second2, #third2, #first3, #second3, #third3, #first4, #second4, #third4, #first5, #second5, #third5, #first6, #second6, #third6   {
-		width: 100%;
+	#first, #second, #third, #first2, #second2, #third2, #first3, #second3, #third3,#first4, #second4, #third4, #first5, #second5, #third5, #first6, #second6, #third6  {	
 		height: 100%;
+		width: 100%;
 		overflow: hidden;
-	
+	  
+	   
 	}
+
+	
 	.column, .column2, .column3, .column4, .column5{
 		width: 200px;
 		height: 100%;
 		margin-left: auto;
 		margin-right: auto;
 		display: block;
-		overflow: hidden;
+		
 	}
 	.price{
      padding-top: 1rem;
@@ -475,12 +515,33 @@ main{
 		height: 100%;
 	}
 	.slideshow-container{
-		width: 200px;
-		height: 200px;
+		max-width: 300px;
+		max-height: 300px;
 	}
 	.modal img{
-		width: 200px;
-		height: 200px;
+		max-width: 300px;
+		max-height: 300px;
 	}
+	
+	/*.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  
+
+}  */
+	.prev, .next{
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+
+	
+	
+}
+	.prev{
+		left: -50px;
+	}
+	.next{
+		right: -50px;
+	} 
 }
 

@@ -15,7 +15,7 @@
 <body>
    
  <header>
-	<!--- <button id="btn" onclick="topFunction()" ></button> ----->
+	
 	<button  id="btn" ></button>
 	 
 	<div id="Shop">
@@ -31,23 +31,22 @@
 	 </div>	
 	<div id="button">
 	 <div class="wrapper">
-	  <button class= "grey" onclick="shopFunction('L', this, ' hsl(60, 57%, 75%) ', 'none', 'black')"> Laptops</button><!---
-	  ---><button class="grey" onclick="shopFunction('SM', this, 'hsl(60, 57%, 75%)', 'none', 'black' )">Smarthphones</button><!---
-	  ---><button class="grey" onclick="shopFunction('TB', this, 'hsl(60, 57%, 75%)', 'none', 'black')">Tablets</button><!----
-	  ---><button class="grey" onclick="shopFunction('CS', this, 'hsl(60, 57%, 75%)', 'none', 'black')">Consoles</button><!---
-	  ---><button class="grey" onclick="shopFunction('GS', this, 'hsl(60, 57%, 75%)', 'none', 'black')">Games</button><!----
-	  ---><button class="grey" onclick="shopFunction('TV', this, 'hsl(60, 57%, 75%)', 'none', 'black')">TV</button>	 
+	     <button class= "grey active" onclick="shopFunction('L', this, ' hsl(60, 57%, 75%) ', 'none', 'black')"> Laptops</button><!--
+	     --><button class="grey" onclick="shopFunction('SM', this, 'hsl(60, 57%, 75%)', 'none', 'black' )">Smarthphones</button><!--
+	     --><button class="grey" onclick="shopFunction('TB', this, 'hsl(60, 57%, 75%)', 'none', 'black')">Tablets</button><!--
+	     --><button class="grey" onclick="shopFunction('CS', this, 'hsl(60, 57%, 75%)', 'none', 'black')">Consoles</button><!--
+	     --><button class="grey" onclick="shopFunction('GS', this, 'hsl(60, 57%, 75%)', 'none', 'black')">Games</button><!--
+	     --><button class="grey" onclick="shopFunction('TV', this, 'hsl(60, 57%, 75%)', 'none', 'black')">TV</button>	 
      </div>
-   </div>
+    </div>
 	 <div id="button2" class="button2">	
-	  <button  onclick="shopFunction('L')"> Laptops</button>
-	  <button onclick="shopFunction('SM')">Smarthphones</button>
-	  <button onclick="shopFunction('TB')">Tablets</button>
-	  <button onclicK="shopFunction('CS')">Consoles</button>	
-	  <button onclick="shopFunction('GS')">Games</button>
-	  <button onclick="shopFunction('TV')">TV</button>	
-	 </div>	 
-
+	  <button  class=" grey active2" onclick="shopFunction('L')"> Laptops</button>
+	  <button class="grey" onclick="shopFunction('SM')">Smarthphones</button>
+	  <button class="grey" onclick="shopFunction('TB')">Tablets</button>
+	  <button class="grey" onclicK="shopFunction('CS')">Consoles</button>	
+	  <button class="grey" onclick="shopFunction('GS')">Games</button>
+	  <button class="grey" onclick="shopFunction('TV')">TV</button>	
+     </div>	
    </div>
  </header>
  <main>
@@ -64,7 +63,9 @@
       <input type="radio" id="star1" name="rate"><label for="star1"></label>
     </div> 
 	   <p class="price">Price: <span class="green">700$</span></p>
-	   <a href="Log in/index.html"><button class="buy">Buy</button></a>
+	   <form>
+		  <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	   </form>
      </div>	
 	 <div class="column">
        <img onclick="modalPage('modal14')" src="assets/Smartphones/Nokia5/Nokia%205.JPG" alt="Nokia5">
@@ -77,7 +78,9 @@
       <input type="radio" id="star10" name="rate"><label for="star10"></label>
     </div> 
 	   <p class="price">Price: <span class="green">150$</span></p>
-	   <a href="Log in/index.html"><button class="buy">Buy</button></a> 
+	   <form>
+		  <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	   </form> 
      </div>
 	 <div class="column">	
 	   <img  onclick="modalPage('modal15')"   src="assets/Smartphones/Lg-k9/Lg-K9.JPG" alt="LG-K9">
@@ -90,7 +93,9 @@
           <input type="radio" id="star15" name="rate"><label for="star15"></label>
         </div> 
 	   <p class="price">Price: <span class="green">170$</span></p>
-	   <a href="Log in/index.html"><button class="buy">Buy</button></a>
+	   <form>
+		  <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	   </form> 
 	 </div>
 	 <div class="column">	
 	   <img onclick="modalPage('modal16')" src="assets/Smartphones/Samsung-S8/S8.JPG" alt="S8" >
@@ -103,7 +108,9 @@
           <input type="radio" id="star20" name="rate"><label for="star20"></label>
          </div> 
 	   <p class="price">Price: <span class="green">650$</span></p>
-	   <a href="Log in/index.html"><button class="buy">Buy</button></a>
+	   <form>
+		  <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	   </form> 
 	 </div>	 
 	</div>  
 	<div id="second">
@@ -118,7 +125,9 @@
           <input type="radio" id="star25" name="rate"><label for="star25"></label>
          </div> 
 	   <p class="price">Price: <span class="green">300$</span></p>
-	   <a href="Log in/index.html"><button class="buy">Buy</button></a>
+	    <form>
+		  <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	   </form>
 	  </div>
 	  <div class="column">
 	   <img onclick="modalPage('modal18')" src="assets/Smartphones/IPhone-XS/iPhone-XS.JPG" alt="iPhone-XS">
@@ -131,7 +140,9 @@
           <input type="radio" id="star30" name="rate"><label for="star30"></label>
          </div>  
 	   <p class="price">Price: <span class="green">1200$</span></p>
-	   <a href="Log in/index.html"><button class="buy">Buy</button></a>
+	    <form>
+		  <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	   </form>
 	  </div>
 	  <div class="column">	
 	   <img onclick="modalPage('modal19')" src="assets/Smartphones/Xiaomi/Xiaomi.JPG" alt="Xiaomi">
@@ -144,7 +155,9 @@
           <input type="radio" id="star35" name="rate"><label for="star35"></label>
          </div> 
 	   <p class="price">Price: <span class="green">200$</span></p>
-	   <a href="Log in/index.html"><button class="buy">Buy</button></a>
+	    <form>
+		  <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	   </form>
 	  </div>
 	  <div class="column">	
 		<img onclick="modalPage('modal20')" src="assets/Smartphones/iHunt/iHunt.JPG" alt="IHunt">
@@ -157,7 +170,9 @@
           <input type="radio" id="star40" name="rate"><label for="star40"></label>
          </div> 
 		<p class="price">Price: <span class="green">300$</span></p>
-	    <a href="Log in/index.html"><button class="buy">Buy</button></a>
+	     <form>
+		  <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	   </form> 
 	  </div>  
 	</div>  
 	<div id="third">
@@ -172,7 +187,9 @@
           <input type="radio" id="star45" name="rate"><label for="star45"></label>
          </div>  
 		 <p class="price">Price: <span class="green">200$</span></p>
-		 <a href="Log in/index.html"><button class="buy">Buy</button></a>
+		  <form>
+		  <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	   </form>
 	  </div>
 	  <div class="column">
 		<img onclick="modalPage('modal22')" src="assets/Smartphones/Huawey/Huawey.JPG" alt="Huawey">
@@ -185,7 +202,9 @@
           <input type="radio" id="star50" name="rate"><label for="star50"></label>
          </div>  
 		<p class="price">Price: <span class="green">550$</span></p>
-	    <a href="Log in/index.html"><button class="buy">Buy</button></a>
+	    <form>
+		  <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	    </form>
 	  </div>
 	  <div class="column">
 		<img onclick="modalPage('modal23')" src="assets/Smartphones/IPhone-6/iPhone%206.JPG" alt="iPhone6">
@@ -198,7 +217,9 @@
           <input type="radio" id="star55" name="rate"><label for="star55"></label>
          </div>   
 		<p class="price">Price: <span class="green">400$</span></p>
-		<a href="Log in/index.html"><button class="buy">Buy</button></a>
+		<form>
+		  <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	   </form>
 	  </div>
       <div class="column">
 		 <img onclick="modalPage('modal24')" src="assets/Smartphones/Samsung-J5/Samsung%20J5.JPG" alt="Samsung J5">
@@ -211,7 +232,9 @@
           <input type="radio" id="star60" name="rate"><label for="star60"></label>
          </div>   
 		 <p class="price">Price: <span class="green">200$</span></p>
-		 <a href="Log in/index.html"><button class="buy">Buy</button></a>
+		 <form>
+		  <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	   </form>
 	  </div>
 	</div> 
    </div>
@@ -228,7 +251,9 @@
           <input type="radio" id="star65" name="rate"><label for="star65"></label>
          </div>   
 	   <p class="price">Price: <span class="green">550$</span></p>
-	   <a href="Log in/index.html"><button class="buy">Buy</button></a>  
+	    <form>
+		  <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	   </form>  
 	  </div>
 	  <div class="column2">
 		<img onclick="modalPage('modal2')" src="assets/Laptops/Lenovo/Lenovo.JPG" alt="Lenovo">
@@ -241,7 +266,9 @@
           <input type="radio" id="star70" name="rate"><label for="star70"></label>
          </div>    
 		<p class="price">Price: <span class="green">300$</span></p>
-		<a href="Log in/index.html"><button class="buy">Buy</button></a> 
+		<form>
+		  <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	    </form>
 	  </div>
 	  <div class="column2">
 		  <img onclick="modalPage('modal3')" src="assets/Laptops/HP-Omen/HP-OMEN.JPG" alt="HP-OMEN">
@@ -254,7 +281,9 @@
           <input type="radio" id="star75" name="rate"><label for="star75"></label>
          </div>    
 		  <p class="price">Price: <span class="green">1900$</span></p>
-		  <a href="Log in/index.html"><button class="buy">Buy</button></a>
+		 <form>
+		  <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	     </form>
 	 </div>
 	 <div class="column2">
 		 <img onclick="modalPage('modal4')" src="assets/Laptops/DELL/Dell.JPG" alt="Dell">
@@ -267,7 +296,9 @@
           <input type="radio" id="star80" name="rate"><label for="star80"></label>
          </div>    
 		 <p class="price">Price: <span class="green">400$</span></p>
-		 <a href="Log in/index.html"><button class="buy">Buy</button></a>
+		 <form>
+		  <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	     </form>
 	 </div>	
 	 </div>
 	 <div id="second2">
@@ -282,7 +313,9 @@
              <input type="radio" id="star85" name="rate"><label for="star85"></label>
          </div>     
 		  <p class="price">Price: <span class="green">600$</span></p>
-		  <a href="Log in/index.html"><button class="buy">Buy</button></a>
+		  <form>
+		    <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	      </form>
 		</div>
 		<div class="column2">
 		  <img onclick="modalPage('modal6')" src="assets/Laptops/ACER-ASPIRE/Acer.JPG" alt="Acer">
@@ -295,7 +328,9 @@
              <input type="radio" id="star90" name="rate"><label for="star90"></label>
          </div>
 		  <p class="price">Price: <span class="green">500$</span></p>
-		  <a href="Log in/index.html"><button class="buy">Buy</button></a>
+		  <form>
+		    <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	      </form>
 		</div>
 		<div class="column2">
 			<img onclick="modalPage('modal7')"  src="assets/Laptops/Gaming-Lenovo/Gaming-Lenovo.JPG" alt="Gaming-Lenovo">
@@ -308,7 +343,9 @@
              <input type="radio" id="star95" name="rate"><label for="star95"></label>
            </div>
 			<p class="price">Price: <span class="green">1000$</span></p>
-		    <a href="Log in/index.html"><button class="buy">Buy</button></a>
+		    <form>
+		     <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	        </form>
 		</div>
 		<div class="column2">
 		 <img onclick="modalPage('modal8')"   src="assets/Laptops/Apple/Apple.JPG" alt="Apple MacbBook">
@@ -321,7 +358,9 @@
              <input type="radio" id="star100" name="rate"><label for="star100"></label>
            </div>
 		 <p class="price">Price: <span class="green">1800$</span></p>
-		<a href="Log in/index.html"><button class="buy">Buy</button></a> 
+		  <form>
+		     <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	      </form>
 		</div>
 	 </div>
 	 <div id="third2">
@@ -336,7 +375,9 @@
              <input type="radio" id="star105" name="rate"><label for="star105"></label>
            </div>
 			<p class="price">Price: <span class="green">250$</span></p>
-			<a href="Log in/index.html"><button class="buy">Buy</button></a>
+			<form>
+		     <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	      </form>
 		</div>
 		<div class="column2">
 		  <img onclick="modalPage('modal10')" src="assets/Laptops/Kiano/Kiano.JPG" alt="Kiano">
@@ -349,7 +390,9 @@
              <input type="radio" id="star110" name="rate"><label for="star110"></label>
            </div> 
 		  <p class="price">Price: <span class="green">350$</span></p>
-		  <a href="Log in/index.html"><button class="buy">Buy</button></a>
+		  <form>
+		     <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	      </form>
 		</div>
 		<div class="column2">
 		  <img onclick="modalPage('modal11')"  src="assets/Laptops/Gaming-Acer/Gaming-Acer.JPG" alt="Gaming-Acer">
@@ -362,7 +405,9 @@
              <input type="radio" id="star115" name="rate"><label for="star115"></label>
            </div> 
 		  <p class="price">Price: <span class="green">1000$</span></p>
-		  <a href="Log in/index.html"><button class="buy">Buy</button></a>
+		  <form>
+		     <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	      </form>
 		</div>
 		<div class="column2">
 			<img onclick="modalPage('modal12')" src="assets/Laptops/Kruger/KRUGER&MATZ.JPG" alt="KRUGER&MATZ">
@@ -375,7 +420,9 @@
              <input type="radio" id="star120" name="rate"><label for="star120"></label>
            </div> 
 			<p class="price">Price: <span class="green">300$</span></p>
-			<a href="Log in/index.html"><button class="buy">Buy</button></a>
+			<form>
+		     <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	      </form>
 		</div>
 	 </div>
 	 
@@ -393,7 +440,9 @@
              <input type="radio" id="star125" name="rate"><label for="star125"></label>
            </div> 
 			<p class="price">Price: <span class="green">160$</span></p>
-			<a href="Log in/index.html"><button class="buy">Buy</button></a>
+			<form>
+		     <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	       </form>
 		 </div>
 		 <div class="column3">
 			<img onclick="modalPage('modal26')" src="assets/Tablets/VIVA/Allview%20Viva.JPG" alt="Allview Viva">
@@ -406,7 +455,9 @@
              <input type="radio" id="star130" name="rate"><label for="star130"></label>
            </div> 
 			<p class="price">Price: <span class="green">80$</span></p>
-			<a href="Log in/index.html"><button class="buy">Buy</button></a>
+			<form>
+		     <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	       </form>
 		 </div>
 		 <div class="column3">
 			 <img onclick="modalPage('modal27')" src="assets/Tablets/Apple9.7/Apple%209.7.JPG" alt="Apple Ipad 9.7">
@@ -419,7 +470,9 @@
              <input type="radio" id="star135" name="rate"><label for="star135"></label>
            </div>
 			 <p class="price">Price: <span class="green">400$</span></p>
-			 <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			 <form>
+		      <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	        </form>
 		 </div>
 		 <div class="column3">
 			<img onclick="modalPage('modal28')" src="assets/Tablets/Huawey-MediaPad/Huawey-MediaPad.JPG" alt="Huawey Media-Pad">
@@ -432,7 +485,9 @@
              <input type="radio" id="star140" name="rate"><label for="star140"></label>
            </div>
 			<p class="price">Price: <span class="green">120$</span></p>
-			<a href="Log in/index.html"><button class="buy">Buy</button></a>
+			<form>
+		     <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	        </form>
 		 </div>
 		 
 	  </div>
@@ -448,7 +503,9 @@
              <input type="radio" id="star145" name="rate"><label for="star145"></label>
            </div>
 			 <p class="price">Price: <span class="green">420$</span></p>
-			 <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			 <form>
+		       <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	        </form>
 		  </div>
 		  <div class="column3">
 			  <img onclick="modalPage('modal30')" src="assets/Tablets/Vonino/Vonino.JPG" alt="Vonino">
@@ -461,7 +518,9 @@
              <input type="radio" id="star150" name="rate"><label for="star150"></label>
            </div>
 			  <p class="price">Price:<span class="green">150$</span> </p>
-			  <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			  <form>
+		        <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	          </form>
 		  </div>
 		  <div class="column3">
 			  <img onclick="modalPage('modal31')" src="assets/Tablets/iPad-Mini/iPad-Mini.JPG" alt="iPad Mini">
@@ -474,7 +533,9 @@
                <input type="radio" id="star155" name="rate"><label for="star155"></label>
             </div>
 			  <p class="price">Price: <span class="green">500$</span></p>
-			  <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			  <form>
+		        <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	          </form>
 		  </div>
 		  <div class="column3">
 			<img onclick="modalPage('modal32')" src="assets/Tablets/Archos/Archos.JPG" alt="Archos">
@@ -487,7 +548,9 @@
                <input type="radio" id="star160" name="rate"><label for="star160"></label>
             </div>
 			<p class="price">Price: <span class="green">100$</span></p>
-			<a href="Log in/index.html"><button class="buy">Buy</button></a>
+			<form>
+		       <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	        </form>
 		  </div>
 	   </div>
 	   <div id="third3">
@@ -502,7 +565,9 @@
                <input type="radio" id="star165" name="rate"><label for="star165"></label>
             </div>
 			  <p class="price">Price: <span class="green">250$</span></p>
-			  <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			 <form>
+		       <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	        </form>
 		  </div> 
 		  <div class="column3">
 			  <img onclick="modalPage('modal34')"  src="assets/Tablets/MediaPad-M3/MeadiaPad.JPG" alt="MediaPad">
@@ -515,7 +580,9 @@
                <input type="radio" id="star170" name="rate"><label for="star170"></label>
              </div>
 			  <p class="price">Price: <span class="green">300$</span></p>
-			  <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			   <form>
+		         <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	         </form>
 		  </div>
 		  <div class="column3">
 			  <img onclick="modalPage('modal35')"  src="assets/Tablets/Surface/Surface.JPG" alt="Surface">
@@ -528,7 +595,9 @@
                <input type="radio" id="star175" name="rate"><label for="star175"></label>
              </div> 
 			  <p class="price">Price: <span class="green">520$</span></p>
-			  <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			   <form>
+		         <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	          </form>
 		  </div>
 		  <div class="column3">
 			  <img onclick="modalPage('modal36')" src="assets/Tablets/Lenovo/Lenovo.JPG" alt="Lenovo">
@@ -541,7 +610,9 @@
                <input type="radio" id="star180" name="rate"><label for="star180"></label>
              </div>  
 			  <p class="price">Price: <span class="green">200$</span></p>
-			  <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			   <form>
+		         <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	          </form>
 		  </div>
 	  </div>
    </div>
@@ -558,7 +629,9 @@
                <input type="radio" id="star185" name="rate"><label for="star185"></label>
            </div>    
 		<p class="price">Price: <span class="green">470$</span></p>
-		<a href="Log in/index.html"><button class="buy">Buy</button></a>
+		 <form>
+		     <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	     </form>
 	  </div>
 	  <div class="column4">
 		  <img onclick="modalPage('modal38')" src="assets/Consoles/Xbox-One-Slim/Xbox-One-Slim.JPG" alt="Xbox-One Slim">
@@ -571,7 +644,9 @@
                <input type="radio" id="star190" name="rate"><label for="star190"></label>
            </div>    
 		  <p class="price">Price: <span class="green">300$</span></p>
-		  <a href="Log in/index.html"><button class="buy">Buy</button></a>
+		   <form>
+		      <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	       </form>
 	  </div>
 	  <div class="column4">
 		  <img onclick="modalPage('modal39')" src="assets/Consoles/Sony-PlayStation-Slim-500gb/Sony-Playstation-Slim-500gb.JPG" alt="PlayStation-Slim">
@@ -584,7 +659,9 @@
                <input type="radio" id="star195" name="rate"><label for="star195"></label>
            </div>      
 		  <p class="price">Price: <span class="green">300$</span></p>
-		  <a href="Log in/index.html"><button class="buy">Buy</button></a>
+		   <form>
+		      <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	       </form>
 	  </div>
 	  <div class="column4">
 		<img onclick="modalPage('modal40')" src="assets/Consoles/Nintendo/Nintendo.JPG" alt="Nintendo">
@@ -597,7 +674,9 @@
                <input type="radio" id="star200" name="rate"><label for="star200"></label>
            </div>     
 		<p class="price">Price: <span class="green">400$</span></p>
-		<a href="Log in/index.html"><button class="buy">Buy</button></a>
+		 <form>
+		    <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	     </form>
 	  </div>
 	 </div>
 	 <div id="second4">
@@ -612,7 +691,9 @@
                <input type="radio" id="star205" name="rate"><label for="star205"></label>
            </div>    
 		 <p class="price">Price: <span class="green">300$</span></p>
-		 <a href="Log in/index.html"><button class="buy">Buy</button></a>
+		  <form>
+		      <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	       </form>
 		</div>
 		<div class="column4">
 			<img  onclick="modalPage('modal42')" src="assets/Consoles/PS+3GAMES/PlayStation-3games.JPG" alt="PlayStation + 3games">
@@ -625,10 +706,12 @@
                <input type="radio" id="star210" name="rate"><label for="star210"></label>
            </div> 
 			<p class="price">Price: <span class="green">400$</span></p>
-			<a href="Log in/index.html"><button class="buy">Buy</button></a>
+			 <form>
+		       <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	        </form>
 		</div>
 		<div class="column4">
-			<img  onclick="modalPage('modal43')" src="assets/Consoles/PS+FIFA-19/PS+FIFA19.JPG"alt="PS + FIFA19">
+			<img  onclick="modalPage('modal43')" src="assets/Consoles/PS+FIFA-19/PS+FIFA19.JPG" alt="PS + FIFA19">
 			<p>Sony Playstation 4 SLIM, 1 TB plus FIFA 19 Game </p>
 			   <div class="rate">
                <input type="radio" id="star211" name="rate"><label for="star211"></label>
@@ -638,7 +721,9 @@
                <input type="radio" id="star215" name="rate"><label for="star215"></label>
              </div>   
 			<p class="price">Price: <span class="green">500$</span></p>
-			<a href="Log in/index.html"><button class="buy">Buy</button></a>
+			 <form>
+		       <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	        </form>
 		</div>
 		<div class="column4">
 			<img onclick="modalPage('modal44')" src="assets/Consoles/PS+SPIDER-MAN/PS+Spider-Man.JPG" alt="PS + Spider-Man">
@@ -651,7 +736,9 @@
                <input type="radio" id="star220" name="rate"><label for="star220"></label>
              </div>  
 			<p class="price">Price: <span class="green">500$</span></p>
-			<a href="Log in/index.html"><button class="buy">Buy</button></a>
+			 <form>
+		      <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	        </form>
 		</div>
 	 </div>
 	 <div id="third4">
@@ -666,7 +753,9 @@
                <input type="radio" id="star225" name="rate"><label for="star225"></label>
              </div>  
 		  <p class="price">Price: <span class="green">40$</span></p>
-		  <a href="Log in/index.html"><button class="buy">Buy</button></a>
+		   <form>
+		      <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	       </form>
 		</div>
 		<div class="column4">
 			<img src="assets/Consoles/Sega%20Mega.JPG" alt="Sega Mega">
@@ -679,7 +768,9 @@
                <input type="radio" id="star230" name="rate"><label for="star230"></label>
              </div> 
 			<p class="price">Price: <span class="green">130$</span></p>
-			<a href="Log in/index.html"><button class="buy">Buy</button></a>
+			 <form>
+		       <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	        </form>
 		</div>
 		<div class="column4">
 			<img onclick="modalPage('modal46')" src="assets/Consoles/Retro-Md/Retro-Md.JPG" alt="Retro Md">
@@ -692,7 +783,9 @@
                <input type="radio" id="star235" name="rate"><label for="star235"></label>
              </div>
 			<p class="price">Price: <span class="green">50$</span></p>
-			<a href="Log in/index.html"><button class="buy">Buy</button></a>
+			<form>
+		      <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	        </form>
 		</div>
 		 <div class="column4">
 			 <img src="assets/Consoles/Retron.JPG" alt="Retron">
@@ -705,7 +798,9 @@
                <input type="radio" id="star240" name="rate"><label for="star240"></label>
              </div>
 			 <p class="price">Price: <span class="green">80$</span></p>
-			 <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			 <form>
+		       <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	        </form>
 		 </div>
 	 </div> 
    </div>
@@ -722,7 +817,9 @@
                <input type="radio" id="star245" name="rate"><label for="star245"></label>
              </div>
 			<p class="price">Price: <span class="green">50$</span></p>
-			<a href="Log in/index.html"><button class="buy">Buy</button></a>
+			<form>
+		       <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	        </form>
 		  </div>
 		  <div class="column5">
 			<img onclick="modalPage('modal48')" src="assets/Games/Read-Dead.JPG" alt="Read Dead Redemption">
@@ -735,7 +832,9 @@
                <input type="radio" id="star250" name="rate"><label for="star250"></label>
              </div> 
 			<p class="price">Price: <span class="green">50$</span></p>
-			<a href="Log in/index.html"><button class="buy">Buy</button></a>
+			<form>
+		       <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	        </form>
 		  </div>
 		  <div class="column5">
 			  <img onclick="modalPage('modal49')" src="assets/Games/GTA%20V.JPG" alt="GTA V">
@@ -748,7 +847,9 @@
                <input type="radio" id="star255" name="rate"><label for="star255"></label>
              </div> 
 			  <p class="price">Price: <span class="green">30$</span></p>
-			  <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			  <form>
+		       <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	        </form>
 		  </div>
 		  <div class="column5">
 			 <img onclick="modalPage('modal50')"  src="assets/Games/Assasin%20Creed%20Odisey.JPG" alt="Assasin Creed Odyssey">
@@ -761,7 +862,9 @@
                <input type="radio" id="star260" name="rate"><label for="star260"></label>
              </div>
 			 <p class="price">Price: <span class="green">40$</span></p>
-			 <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			 <form>
+		      <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	        </form>
 		  </div>
 	   </div>
 	   <div id="second5">
@@ -776,7 +879,9 @@
                 <input type="radio" id="star265" name="rate"><label for="star265"></label>
              </div>  
 			   <p class="price">Price: <span class="green">20$</span></p>
-			   <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			   <form>
+		        <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	          </form>
 		   </div>
 		   <div class="column5">
 			   <img  onclick="modalPage('modal52')" src="assets/Games/Horizon.JPG" alt="Horizon">
@@ -789,7 +894,9 @@
                 <input type="radio" id="star270" name="rate"><label for="star270"></label>
              </div>   
 			   <p class="price">Price: <span class="green">20$</span></p>
-			   <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			   <form>
+		         <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	           </form>
 		   </div>
 		   <div class="column5">
 			   <img onclick="modalPage('modal53')" src="assets/Games/Troll%20and%20I.JPG" alt="Troll and I">
@@ -802,7 +909,9 @@
                 <input type="radio" id="star275" name="rate"><label for="star275"></label>
              </div>    
 			   <p class="price">Price: <span class="green">10$</span></p>
-			   <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			   <form>
+		         <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	           </form>
 		   </div>
 		   <div class="column5">
 			   <img onclick="modalPage('modal54')" src="assets/Games/Injustice.JPG" alt="Injustice">
@@ -815,7 +924,9 @@
                 <input type="radio" id="star280" name="rate"><label for="star280"></label>
              </div>    
 			   <p class="price">Price: <span class="green">50$</span></p>
-			   <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			   <form>
+		         <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	           </form> 
 		   </div>
 	   </div>
 	   <div id="third5">
@@ -830,7 +941,9 @@
                 <input type="radio" id="star285" name="rate"><label for="star285"></label>
                </div>  
 			  <p class="price">Price: <span class="green">20$</span></p>
-			  <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			  <form>
+		       <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	          </form>
 		   </div>
 		   <div class="column5">
 			   <img onclick="modalPage('modal56')"  src="assets/Games/Extinction.JPG" alt="Extinction">
@@ -843,7 +956,9 @@
                 <input type="radio" id="star290" name="rate"><label for="star290"></label>
               </div> 
 			   <p class="price">Price: <span class="green">15$</span></p>
-			   <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			   <form>
+		         <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	           </form>
 		   </div>
 		   <div class="column5">
 			   <img onclick="modalPage('modal57')" src="assets/Games/Little%20Nightmares.JPG" alt="Little Nightmares">
@@ -856,7 +971,9 @@
                 <input type="radio" id="star295" name="rate"><label for="star295"></label>
               </div> 
 			   <p class="price">Price: <span class="green">40$</span></p>
-			   <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			   <form>
+		         <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	           </form>
 		   </div>
 		   <div class="column5">
 			   <img onclick="modalPage('modal58')" src="assets/Games/Nascar.JPG" alt="Nascar">
@@ -869,7 +986,9 @@
                 <input type="radio" id="star300" name="rate"><label for="star300"></label>
               </div> 
 			   <p class="price">Price:<span class="green">60$</span> </p>
-			   <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			   <form>
+		         <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	           </form>
 		   </div>
 		   
 	   </div>
@@ -888,7 +1007,9 @@
                 <input type="radio" id="star305" name="rate"><label for="star305"></label>
               </div>    
 		   <p class="price">Price:<span class="green">150$</span> </p>
-		    <a href="Log in/index.html"><button class="buy">Buy</button></a>
+		    <form>
+		         <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	        </form>
 		 </div>
 		 <div class="column5">
 		   <img  onclick="modalPage('modal60')" src="assets/TV/Smart-Philips/Smart-Philips.JPG" alt="Smart-Philips">
@@ -901,7 +1022,9 @@
                 <input type="radio" id="star310" name="rate"><label for="star310"></label>
               </div>    
 		   <p class="price">Price:<span class="green">850$</span> </p>
-		    <a href="Log in/index.html"><button class="buy">Buy</button></a>
+		   <form>
+		         <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	       </form> 
 		 </div>
 		 <div class="column5">
 			<img onclick="modalPage('modal61')" src="assets/TV/Led-Nei/Led-Nei.JPG" alt="Led Nei">
@@ -914,7 +1037,9 @@
                 <input type="radio" id="star315" name="rate"><label for="star315"></label>
               </div> 
 			<p class="price">Price:<span class="green">150$</span> </p>
-			 <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			  <form>
+		        <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	          </form> 
 		 </div>
 		 <div class="column5">
 			<img onclick="modalPage('modal62')" src="assets/TV/Led-Samsung/Led-Samsung.JPG" alt="Led Samsung">
@@ -927,7 +1052,9 @@
                 <input type="radio" id="star320" name="rate"><label for="star320"></label>
               </div> 
 			<p class="price">Price:<span class="green">200$</span> </p>
-			 <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			  <form>
+		        <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	          </form>  
 		 </div>
 	  </div>
 	  <div id="second6">
@@ -942,7 +1069,9 @@
                 <input type="radio" id="star325" name="rate"><label for="star325"></label>
               </div>  
 			<p class="price">Price:<span class="green"> 400$</span></p>
-			 <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			  <form>
+		        <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	          </form>  
 		</div>
 		<div class="column5">
 			<img onclick="modalPage('modal64')" src="assets/TV/Led-Curbat/Led-Curbat.JPG" alt="Curbat">
@@ -955,7 +1084,9 @@
                 <input type="radio" id="star330" name="rate"><label for="star330"></label>
               </div>  
 			<p class="price">Price:<span class="green">850$</span> </p>
-			 <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			  <form>
+		        <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	          </form> 
 		</div>
 		<div class="column5">
 		  <img onclick="modalPage('modal65')"  src="assets/TV/Led-Portabil/Led-Portabil.JPG" alt="Led Portabil">
@@ -968,7 +1099,9 @@
                 <input type="radio" id="star335" name="rate"><label for="star335"></label>
               </div>  
 		  <p class="price">Price:<span class="green">150$</span> </p>
-		   <a href="Log in/index.html"><button class="buy">Buy</button></a>
+		    <form>
+		       <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	       </form> 
 		</div>
 		<div class="column5">
 			<img onclick="modalPage('modal66')"   src="assets/TV/Smart-Toshiba/Smart-Toshiba.JPG" alt="Smart Toshiba">
@@ -981,7 +1114,9 @@
                 <input type="radio" id="star340" name="rate"><label for="star340"></label>
               </div>  
 		    <p class="price">Price:<span class="green">230$</span> </p>
-			 <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			  <form>
+		        <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	        </form> 
 		</div>
 	  </div>
 	  <div id="third6">
@@ -996,7 +1131,9 @@
                 <input type="radio" id="star345" name="rate"><label for="star345"></label>
               </div>  
 			<p class="price">Price:<span class="green">150$</span> </p>
-			 <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			  <form>
+		        <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	          </form> 
 		 </div>
 		 <div class="column5">
 			<img onclick="modalPage('modal68')" src="assets/TV/Led-Akai/Led-Akai.JPG" alt="Led Akai">
@@ -1009,7 +1146,9 @@
                 <input type="radio" id="star350" name="rate"><label for="star350"></label>
               </div>  
 			<p class="price">Price:<span  class="green"> 150$</span></p>
-			 <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			  <form>
+		         <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	          </form> 
 		 </div>
 		 <div class="column5">
 			<img onclick="modalPage('modal69')"  src="assets/TV/Led-LG/Led-LG.JPG" alt="Led LG">
@@ -1022,26 +1161,30 @@
                 <input type="radio" id="star355" name="rate"><label for="star355"></label>
               </div>  
 			<p class="price">Price:<span class="green">550$</span></p>
-			 <a href="Log in/index.html"><button class="buy">Buy</button></a>
+		      <form>
+		         <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	          </form> 
 		 </div>
 		 <div class="column5">
 			<img onclick="modalPage('modal70')"  src="assets/TV/QLED/QLED-1.jpg" alt="QLED">
 			<p>QLED Smart Samsung</p>
 			     <div class="rate">
-                <input type="radio" id="star351" name="rate"><label for="star351"></label>
-	            <input type="radio" id="star352" name="rate"><label for="star352"></label>
-                <input type="radio" id="star353" name="rate"><label for="star353"></label>
-                <input type="radio" id="star354" name="rate"><label for="star354"></label>
-                <input type="radio" id="star355" name="rate"><label for="star355"></label>
+                <input type="radio" id="star356" name="rate"><label for="star356"></label>
+	            <input type="radio" id="star357" name="rate"><label for="star357"></label>
+                <input type="radio" id="star358" name="rate"><label for="star358"></label>
+                <input type="radio" id="star359" name="rate"><label for="star359"></label>
+                <input type="radio" id="star360" name="rate"><label for="star360"></label>
               </div>  
 			<p class="price">Price:<span class="green">750$</span></p>
-			 <a href="Log in/index.html"><button class="buy">Buy</button></a>
+			<form>
+		       <input type="button" class="buy" value="Buy" onclick="window.location.href='Log%20in/index.html'">
+	       </form> 
 		 </div>
 		 
 	  </div>
    </div>
  <div id="modal1" class="modal">
-  <span  onclick="spanA('modal1')"class="close">&times</span>
+  <span  onclick="spanA('modal1')" class="close">&times;</span>
   <div class="slideshow-container" id="div1">
   <div class="mySlides fade">
    <img src="assets/Laptops/Asus/Asus.JPG" alt="asus" >
@@ -1057,7 +1200,7 @@
 </div>
 </div>
  <div id="modal2" class="modal">
-  <span  onclick="spanA('modal2')"class="close">&times</span>
+  <span  onclick="spanA('modal2')" class="close">&times;</span>
   <div class="slideshow-container" id="div2">
 <div class="mySlides fade">
   <img src="assets/Laptops/Lenovo/Lenovo.JPG" alt="lenovo" >
@@ -1073,7 +1216,7 @@
 </div>
 </div>
 <div id="modal3" class="modal">
-  <span  onclick="spanA('modal3')"class="close">&times</span>
+  <span  onclick="spanA('modal3')" class="close">&times;</span>
   <div class="slideshow-container" id="div3">
 <div class="mySlides fade">
   <img src="assets/Laptops/HP-Omen/HP-OMEN.JPG" alt="HP OMEN" >
@@ -1089,7 +1232,7 @@
 </div>
 </div>
 <div id="modal4" class="modal">
-  <span  onclick="spanA('modal4')"class="close">&times</span>
+  <span  onclick="spanA('modal4')" class="close">&times;</span>
   <div class="slideshow-container" id="div4">
 <div class="mySlides fade">
   <img src="assets/Laptops/DELL/Dell.JPG" alt="Dell" >
@@ -1105,7 +1248,7 @@
 </div>
 </div>
 <div id="modal5" class="modal">
-  <span  onclick="spanA('modal5')"class="close">&times</span>
+  <span  onclick="spanA('modal5')" class="close">&times;</span>
   <div class="slideshow-container" id="div5">
 <div class="mySlides fade">
   <img src="assets/Laptops/HP/HP.JPG" alt="Hp" >
@@ -1121,7 +1264,7 @@
 </div>
 </div>
 <div id="modal6" class="modal">
-  <span  onclick="spanA('modal6')"class="close">&times</span>
+  <span  onclick="spanA('modal6')" class="close">&times;</span>
   <div class="slideshow-container" id="div6">
 <div class="mySlides fade">
   <img src="assets/Laptops/ACER-ASPIRE/Acer.JPG" alt="Acer" >
@@ -1130,14 +1273,14 @@
   <img src="assets/Laptops/ACER-ASPIRE/Acer-2.jpg" alt="Acer" >
 </div>
 <div class="mySlides fade">
-  <img src="assets/Laptops/ACER-ASPIRE/Acer-3.jpg"` alt="Acer" >
+  <img src="assets/Laptops/ACER-ASPIRE/Acer-3.jpg" alt="Acer" >
  </div>
   <a class="prev" onclick="plusDivs(this, -1)">&#10094;</a>
   <a class="next" onclick="plusDivs(this, 1) "  >&#10095;</a>
  </div>
  </div>
  <div id="modal7" class="modal">
-  <span  onclick="spanA('modal7')"class="close">&times</span>
+  <span  onclick="spanA('modal7')" class="close">&times;</span>
   <div class="slideshow-container" id="div7">
  <div class="mySlides fade">
   <img src="assets/Laptops/Gaming-Lenovo/Gaming-Lenovo.JPG" alt="Lenovo-Gaming" >
@@ -1153,7 +1296,7 @@
  </div>
  </div>
  <div id="modal8" class="modal">
-  <span  onclick="spanA('modal8')"class="close">&times</span>
+  <span  onclick="spanA('modal8')" class="close">&times;</span>
   <div class="slideshow-container" id="div8">
  <div class="mySlides fade">
   <img src="assets/Laptops/Apple/Apple.JPG" alt="Macbook" >
@@ -1169,7 +1312,7 @@
 </div>
 </div>
 <div id="modal9" class="modal">
-  <span  onclick="spanA('modal9')"class="close">&times</span>
+  <span  onclick="spanA('modal9')" class="close">&times;</span>
   <div class="slideshow-container" id="div9">
 <div class="mySlides fade">
   <img src="assets/Laptops/Myria/Myria.JPG" alt="MYRIA" >
@@ -1185,7 +1328,7 @@
 </div>
 </div>
 <div id="modal10" class="modal">
-  <span  onclick="spanA('modal10')"class="close">&times</span>
+  <span  onclick="spanA('modal10')" class="close">&times;</span>
   <div class="slideshow-container" id="div10">
 <div class="mySlides fade">
   <img src="assets/Laptops/Kiano/Kiano.JPG" alt="kiano" >
@@ -1201,7 +1344,7 @@
 </div>
 </div>
 <div id="modal11" class="modal">
-  <span  onclick="spanA('modal11')"class="close">&times</span>
+  <span  onclick="spanA('modal11')" class="close">&times;</span>
   <div class="slideshow-container" id="div11">
   <div class="mySlides fade">
    <img src="assets/Laptops/Gaming-Acer/Gaming-Acer.JPG" alt="Acer-Gaming">
@@ -1217,7 +1360,7 @@
 </div>
 </div>
 <div id="modal12" class="modal">
-  <span  onclick="spanA('modal12')"class="close">&times</span>
+  <span  onclick="spanA('modal12')" class="close">&times;</span>
   <div class="slideshow-container" id="div12">
   <div class="mySlides fade">
     <img src="assets/Laptops/Kruger/KRUGER&MATZ.JPG" alt="Ultrabook">
@@ -1233,7 +1376,7 @@
  </div>
  </div>
  <div id="modal13" class="modal">
-  <span  onclick="spanA('modal13')"class="close">&times</span>
+  <span  onclick="spanA('modal13')" class="close">&times;</span>
   <div class="slideshow-container" id="div13">
  <div class="mySlides fade">
   <img src="assets/Smartphones/Samsung-S9/Samsung-S9.JPG" alt="Samsung-S9" >
@@ -1249,7 +1392,7 @@
  </div>
  </div>
  <div id="modal14" class="modal">
-  <span  onclick="spanA('modal14')"class="close">&times</span>
+  <span  onclick="spanA('modal14')" class="close">&times;</span>
   <div class="slideshow-container" id="div14">
  <div class="mySlides fade">
   <img src="assets/Smartphones/Nokia5/Nokia%205.JPG" alt="Nokia5" >
@@ -1265,7 +1408,7 @@
  </div>
  </div>
  <div id="modal15" class="modal">
-  <span  onclick="spanA('modal15')"class="close">&times</span>
+  <span  onclick="spanA('modal15')" class="close">&times;</span>
   <div class="slideshow-container" id="div15">
  <div class="mySlides fade">
   <img src="assets/Smartphones/Lg-k9/Lg-K9.JPG" alt="LG-K9">
@@ -1281,7 +1424,7 @@
  </div>
  </div>
  <div id="modal16" class="modal">
-  <span  onclick="spanA('modal16')"class="close">&times</span>
+  <span  onclick="spanA('modal16')" class="close">&times;</span>
   <div class="slideshow-container" id="div16">
  <div class="mySlides fade">
   <img src="assets/Smartphones/Samsung-S8/S8.JPG" alt="Sansung-S8">
@@ -1290,14 +1433,14 @@
   <img src="assets/Smartphones/Samsung-S8/S8-2.jpg" alt="Sansung-S8">
  </div>
  <div class="mySlides fade">
-  <img src="assets/Smartphones/Samsung-S8/S8-3.jpg"alt="Sansung-S8" >
+  <img src="assets/Smartphones/Samsung-S8/S8-3.jpg" alt="Sansung-S8" >
  </div>
    <a class="prev" onclick="plusDivs(this, -1)">&#10094;</a>
    <a class="next" onclick="plusDivs(this, 1) "  >&#10095;</a>    
  </div>
 </div>
 <div id="modal17" class="modal">
-  <span  onclick="spanA('modal17')"class="close">&times</span>
+  <span  onclick="spanA('modal17')" class="close">&times;</span>
   <div class="slideshow-container" id="div17">
  <div class="mySlides fade">
   <img src="assets/Smartphones/Allview-P9/Allview-P9-Energy-%20S.JPG" alt="Allview">
@@ -1313,7 +1456,7 @@
  </div>
 </div>
 <div id="modal18" class="modal">
-  <span  onclick="spanA('modal18')"class="close">&times</span>
+  <span  onclick="spanA('modal18')" class="close">&times;</span>
   <div class="slideshow-container" id="div18">
  <div class="mySlides fade">
   <img src="assets/Smartphones/IPhone-XS/iPhone-XS.JPG" alt="iPhone">
@@ -1329,7 +1472,7 @@
  </div>
 </div> 
 <div id="modal19" class="modal">
-  <span  onclick="spanA('modal19')"class="close">&times</span>
+  <span  onclick="spanA('modal19')" class="close">&times;</span>
   <div class="slideshow-container" id="div19">
  <div class="mySlides fade">
   <img src="assets/Smartphones/Xiaomi/Xiaomi.JPG" alt="Xiaomi">
@@ -1345,7 +1488,7 @@
  </div>
 </div> 
 <div id="modal20" class="modal">
-  <span  onclick="spanA('modal20')"class="close">&times</span>
+  <span  onclick="spanA('modal20')" class="close">&times;</span>
   <div class="slideshow-container" id="div20">
  <div class="mySlides fade">
   <img src="assets/Smartphones/iHunt/iHunt.JPG" alt="IHunt">
@@ -1361,7 +1504,7 @@
  </div>
 </div> 
 <div id="modal21" class="modal">
-  <span  onclick="spanA('modal21')"class="close">&times</span>
+  <span  onclick="spanA('modal21')" class="close">&times;</span>
   <div class="slideshow-container" id="div21">
  <div class="mySlides fade">
   <img src="assets/Smartphones/X-Cover/X-Cover.JPG" alt="XCover">
@@ -1377,7 +1520,7 @@
  </div>
 </div> 
 <div id="modal22" class="modal">
-  <span  onclick="spanA('modal22')"class="close">&times</span>
+  <span  onclick="spanA('modal22')" class="close">&times;</span>
   <div class="slideshow-container" id="div22">
  <div class="mySlides fade">
   <img src="assets/Smartphones/Huawey/Huawey.JPG" alt="Huawey">
@@ -1393,7 +1536,7 @@
  </div>
 </div>
 <div id="modal23" class="modal">
-  <span  onclick="spanA('modal23')"class="close">&times</span>
+  <span  onclick="spanA('modal23')" class="close">&times;</span>
   <div class="slideshow-container" id="div23">
  <div class="mySlides fade">
   <img src="assets/Smartphones/IPhone-6/iPhone%206.JPG" alt="iPhone">
@@ -1409,7 +1552,7 @@
  </div>
 </div>
 <div id="modal24" class="modal">
-  <span  onclick="spanA('modal24')"class="close">&times</span>
+  <span  onclick="spanA('modal24')" class="close">&times;</span>
   <div class="slideshow-container" id="div24">
  <div class="mySlides fade">
   <img src="assets/Smartphones/Samsung-J5/Samsung%20J5.JPG" alt="Samsung-Galaxy J5">
@@ -1425,7 +1568,7 @@
  </div>
 </div>
 <div id="modal25" class="modal">
-  <span  onclick="spanA('modal25')"class="close">&times</span>
+  <span  onclick="spanA('modal25')" class="close">&times;</span>
   <div class="slideshow-container" id="div25">
  <div class="mySlides fade">
   <img src="assets/Tablets/Galaxy-Tab/Samsung-Galaxy%20Tab.JPG" alt="Tab E">
@@ -1441,7 +1584,7 @@
  </div>
 </div>
 <div id="modal26" class="modal">
-  <span  onclick="spanA('modal26')"class="close">&times</span>
+  <span  onclick="spanA('modal26')" class="close">&times;</span>
   <div class="slideshow-container" id="div26">
  <div class="mySlides fade">
   <img src="assets/Tablets/VIVA/Allview%20Viva.JPG" alt="Allview">
@@ -1457,7 +1600,7 @@
  </div>
 </div>
 <div id="modal27" class="modal">
-  <span  onclick="spanA('modal27')"class="close">&times</span>
+  <span  onclick="spanA('modal27')" class="close">&times;</span>
   <div class="slideshow-container" id="div27">
  <div class="mySlides fade">
   <img src="assets/Tablets/Apple9.7/Apple%209.7.JPG" alt="IPad 9.7">
@@ -1473,10 +1616,10 @@
  </div>
 </div>
 <div id="modal28" class="modal">
-  <span  onclick="spanA('modal28')"class="close">&times</span>
+  <span  onclick="spanA('modal28')" class="close">&times;</span>
   <div class="slideshow-container" id="div28">
  <div class="mySlides fade">
-  <img src="assets/Tablets/Huawey-MediaPad/Huawey-MediaPad.JPG"alt="T3 T">
+  <img src="assets/Tablets/Huawey-MediaPad/Huawey-MediaPad.JPG" alt="T3 T">
  </div>
  <div class="mySlides fade">
   <img src="assets/Tablets/Huawey-MediaPad/Huawey-MediaPad-2.JPG" alt="T3 T"  >
@@ -1489,7 +1632,7 @@
  </div>
 </div>
 <div id="modal29" class="modal">
-  <span  onclick="spanA('modal29')"class="close">&times</span>
+  <span  onclick="spanA('modal29')" class="close">&times;</span>
   <div class="slideshow-container" id="div29">
  <div class="mySlides fade">
   <img src="assets/Tablets/TAB-A/Samsung-Tab.JPG" alt="Tab A">
@@ -1505,7 +1648,7 @@
  </div>
 </div>
 <div id="modal30" class="modal">
-  <span  onclick="spanA('modal30')"class="close">&times</span>
+  <span  onclick="spanA('modal30')" class="close">&times;</span>
   <div class="slideshow-container" id="div30">
  <div class="mySlides fade">
   <img src="assets/Tablets/Vonino/Vonino.JPG" alt="Vonino">
@@ -1521,7 +1664,7 @@
  </div>
 </div>
 <div id="modal31" class="modal">
-  <span  onclick="spanA('modal31')"class="close">&times</span>
+  <span  onclick="spanA('modal31')" class="close">&times;</span>
   <div class="slideshow-container" id="div31">
  <div class="mySlides fade">
   <img src="assets/Tablets/iPad-Mini/iPad-Mini.JPG" alt="IPad Mini">
@@ -1537,7 +1680,7 @@
  </div>
 </div>
 <div id="modal32" class="modal">
-  <span  onclick="spanA('modal32')"class="close">&times</span>
+  <span  onclick="spanA('modal32')" class="close">&times;</span>
   <div class="slideshow-container" id="div32">
  <div class="mySlides fade">
   <img src="assets/Tablets/Archos/Archos.JPG" alt="Archos">
@@ -1553,7 +1696,7 @@
  </div>
 </div>
 <div id="modal33" class="modal">
-  <span  onclick="spanA('modal33')"class="close">&times</span>
+  <span  onclick="spanA('modal33')" class="close">&times;</span>
   <div class="slideshow-container" id="div33">
  <div class="mySlides fade">
   <img src="assets/Tablets/ZenPad/ZenPad.JPG" alt="ZenPad">
@@ -1569,7 +1712,7 @@
  </div>
 </div>
 <div id="modal34" class="modal">
-  <span  onclick="spanA('modal34')"class="close">&times</span>
+  <span  onclick="spanA('modal34')" class="close">&times;</span>
   <div class="slideshow-container" id="div34">
  <div class="mySlides fade">
   <img src="assets/Tablets/MediaPad-M3/MeadiaPad.JPG" alt="M3">
@@ -1585,7 +1728,7 @@
  </div>
 </div>
 <div id="modal35" class="modal">
-  <span  onclick="spanA('modal35')"class="close">&times</span>
+  <span  onclick="spanA('modal35')" class="close">&times;</span>
   <div class="slideshow-container" id="div35">
  <div class="mySlides fade">
   <img src="assets/Tablets/Surface/Surface.JPG" alt="Surface">
@@ -1601,7 +1744,7 @@
  </div>
 </div>
 <div id="modal36" class="modal">
-  <span  onclick="spanA('modal36')"class="close">&times</span>
+  <span  onclick="spanA('modal36')" class="close">&times;</span>
   <div class="slideshow-container" id="div36">
  <div class="mySlides fade">
   <img src="assets/Tablets/Lenovo/Lenovo.JPG" alt="Tab Yoga">
@@ -1617,7 +1760,7 @@
  </div>
 </div>
 <div id="modal37" class="modal">
-  <span  onclick="spanA('modal37')"class="close">&times</span>
+  <span  onclick="spanA('modal37')" class="close">&times;</span>
   <div class="slideshow-container" id="div37">
  <div class="mySlides fade">
   <img src="assets/Consoles/PlayStation-4-Pro/PlayStation-4-Pro.JPG" alt="Sony-PlayStation-4">
@@ -1633,7 +1776,7 @@
  </div>
 </div>
 <div id="modal38" class="modal">
-  <span  onclick="spanA('modal38')"class="close">&times</span>
+  <span  onclick="spanA('modal38')" class="close">&times;</span>
   <div class="slideshow-container" id="div38">
  <div class="mySlides fade">
   <img src="assets/Consoles/Xbox-One-Slim/Xbox-One-Slim.JPG" alt="X-BOX-ONE-500GB">
@@ -1649,7 +1792,7 @@
  </div>
 </div>
 <div id="modal39" class="modal">
-  <span  onclick="spanA('modal39')"class="close">&times</span>
+  <span  onclick="spanA('modal39')" class="close">&times;</span>
   <div class="slideshow-container" id="div39">
  <div class="mySlides fade">
   <img src="assets/Consoles/Sony-PlayStation-Slim-500gb/Sony-Playstation-Slim-500gb.JPG" alt="PlayStation-500GB">
@@ -1665,7 +1808,7 @@
  </div>
 </div>
 <div id="modal40" class="modal">
-  <span  onclick="spanA('modal40')"class="close">&times</span>
+  <span  onclick="spanA('modal40')" class="close">&times;</span>
   <div class="slideshow-container" id="div40">
  <div class="mySlides fade">
   <img src="assets/Consoles/Nintendo/Nintendo.JPG" alt="Nintendo">
@@ -1681,7 +1824,7 @@
  </div>
 </div>
 <div id="modal41" class="modal">
-  <span  onclick="spanA('modal41')"class="close">&times</span>
+  <span  onclick="spanA('modal41')" class="close">&times;</span>
   <div class="slideshow-container" id="div41">
  <div class="mySlides fade">
   <img src="assets/Consoles/X-BOX-ONE+Assasin/Xbox-One+Assasin.JPG" alt="X-BOX+Assasin">
@@ -1697,7 +1840,7 @@
  </div>
 </div>	
 <div id="modal42" class="modal">
-  <span  onclick="spanA('modal42')"class="close">&times</span>
+  <span  onclick="spanA('modal42')" class="close">&times;</span>
   <div class="slideshow-container" id="div42">
  <div class="mySlides fade">
   <img src="assets/Consoles/PS+3GAMES/PlayStation-3games.JPG" alt="PS+3GAMES">
@@ -1713,7 +1856,7 @@
  </div>
 </div>	
 <div id="modal43" class="modal">
-  <span  onclick="spanA('modal43')"class="close">&times</span>
+  <span  onclick="spanA('modal43')" class="close">&times;</span>
   <div class="slideshow-container" id="div43">
  <div class="mySlides fade">
   <img src="assets/Consoles/PS+FIFA-19/PS+FIFA19.JPG" alt="PS+FIFA19">
@@ -1729,7 +1872,7 @@
  </div>
 </div>	
 <div id="modal44" class="modal">
-  <span  onclick="spanA('modal44')"class="close">&times</span>
+  <span  onclick="spanA('modal44')" class="close">&times;</span>
   <div class="slideshow-container" id="div44">
  <div class="mySlides fade">
   <img src="assets/Consoles/PS+SPIDER-MAN/PS+Spider-Man.JPG" alt="PS+SPIDER-MAN">
@@ -1745,7 +1888,7 @@
  </div>
 </div>
 <div id="modal46" class="modal">
-  <span  onclick="spanA('modal46')"class="close">&times</span>
+  <span  onclick="spanA('modal46')" class="close">&times;</span>
   <div class="slideshow-container" id="div46">
  <div class="mySlides fade">
   <img src="assets/Consoles/Retro-Md/Retro-Md.JPG" alt="Retro-MD">
@@ -1761,7 +1904,7 @@
  </div>
 </div>
 <div id="modal47" class="modal">
-  <span  onclick="spanA('modal47')"class="close">&times</span>
+  <span  onclick="spanA('modal47')" class="close">&times;</span>
   <div class="slideshow-container" id="div47">
  <div class="mySlides fade">
   <img src="assets/Games/FIFA-19/FIFA-19.jpg" alt="FIFA-19">
@@ -1777,7 +1920,7 @@
  </div>
 </div>
 <div id="modal48" class="modal">
-  <span  onclick="spanA('modal48')"class="close">&times</span>
+  <span  onclick="spanA('modal48')" class="close">&times;</span>
   <div class="slideshow-container" id="div48">
  <div class="mySlides fade">
   <img src="assets/Games/Read-Dead/Read-Dead.jpg" alt="Read-Dead2">
@@ -1793,7 +1936,7 @@
  </div>
 </div>
 <div id="modal49" class="modal">
-  <span  onclick="spanA('modal49')"class="close">&times</span>
+  <span  onclick="spanA('modal49')" class="close">&times;</span>
   <div class="slideshow-container" id="div49">
  <div class="mySlides fade">
   <img src="assets/Games/GTA-V/GTA-V.jpg" alt="GTA-V">
@@ -1809,7 +1952,7 @@
  </div>
 </div>
 <div id="modal50" class="modal">
-  <span  onclick="spanA('modal50')"class="close">&times</span>
+  <span  onclick="spanA('modal50')" class="close">&times;</span>
   <div class="slideshow-container" id="div50">
  <div class="mySlides fade">
   <img src="assets/Games/AC-Odisey/AC-Odisey.jpg" alt="AC-Odisey">
@@ -1825,7 +1968,7 @@
  </div>
 </div>
 <div id="modal51" class="modal">
-  <span  onclick="spanA('modal51')"class="close">&times</span>
+  <span  onclick="spanA('modal51')" class="close">&times;</span>
   <div class="slideshow-container" id="div51">
  <div class="mySlides fade">
   <img src="assets/Games/FIFA-17/FIFA-17.jpg" alt="FIFA-17">
@@ -1841,7 +1984,7 @@
  </div>
 </div>	
 <div id="modal52" class="modal">
-  <span  onclick="spanA('modal52')"class="close">&times</span>
+  <span  onclick="spanA('modal52')" class="close">&times;</span>
   <div class="slideshow-container" id="div52">
  <div class="mySlides fade">
   <img src="assets/Games/Horizon/Horizon.jpg" alt="Horizon">
@@ -1857,7 +2000,7 @@
  </div>
 </div>
 <div id="modal53" class="modal">
-  <span  onclick="spanA('modal53')"class="close">&times</span>
+  <span  onclick="spanA('modal53')" class="close">&times;</span>
   <div class="slideshow-container" id="div53">
  <div class="mySlides fade">
   <img src="assets/Games/TROOL-AND-I/Troll-and-I.jpg" alt="Trool-and-I">
@@ -1866,14 +2009,14 @@
   <img src="assets/Games/TROOL-AND-I/Troll-and-I-2.jpg"  alt="Trool-and-I">
  </div>
  <div class="mySlides fade">
-  <img src="assets/Games/TROOL-AND-I/troll-and-I-3.jpg"alt="Trool-and-I"  > 
+  <img src="assets/Games/TROOL-AND-I/troll-and-I-3.jpg" alt="Trool-and-I"  > 
  </div>
    <a class="prev" onclick="plusDivs(this, -1)">&#10094;</a>
    <a class="next" onclick="plusDivs(this, 1) "  >&#10095;</a>    
  </div>
 </div>
 <div id="modal54" class="modal">
-  <span  onclick="spanA('modal54')"class="close">&times</span>
+  <span  onclick="spanA('modal54')" class="close">&times;</span>
   <div class="slideshow-container" id="div54">
  <div class="mySlides fade">
   <img src="assets/Games/Injustice/Injustice-1.jpeg" alt="Injustice">
@@ -1889,7 +2032,7 @@
  </div>
 </div>
 <div id="modal55" class="modal">
-  <span  onclick="spanA('modal55')"class="close">&times</span>
+  <span  onclick="spanA('modal55')" class="close">&times;</span>
   <div class="slideshow-container" id="div55">
  <div class="mySlides fade">
   <img src="assets/Games/Painkiller/Painkiller.jpg" alt="Painkilller">
@@ -1905,7 +2048,7 @@
  </div>
 </div>	
 <div id="modal56" class="modal">
-  <span  onclick="spanA('modal56')"class="close">&times</span>
+  <span  onclick="spanA('modal56')" class="close">&times;</span>
   <div class="slideshow-container" id="div56">
  <div class="mySlides fade">
   <img src="assets/Games/Extinction/Extinction.jpg" alt="Extinction">
@@ -1921,7 +2064,7 @@
  </div>
 </div>
 <div id="modal57" class="modal">
-  <span  onclick="spanA('modal57')"class="close">&times</span>
+  <span  onclick="spanA('modal57')" class="close">&times;</span>
   <div class="slideshow-container" id="div57">
  <div class="mySlides fade">
   <img src="assets/Games/Little-Nightmares/Little-Nightmares.jpg" alt="Litlle-Nightmares">
@@ -1937,7 +2080,7 @@
  </div>
 </div>
 <div id="modal58" class="modal">
-  <span  onclick="spanA('modal58')"class="close">&times</span>
+  <span  onclick="spanA('modal58')" class="close">&times;</span>
   <div class="slideshow-container" id="div58">
  <div class="mySlides fade">
   <img src="assets/Games/Nascar/Nascar-heat-3.jpg" alt="Nascar">
@@ -1953,7 +2096,7 @@
  </div>
 </div>
 <div id="modal59" class="modal">
-  <span  onclick="spanA('modal59')"class="close">&times</span>
+  <span  onclick="spanA('modal59')" class="close">&times;</span>
   <div class="slideshow-container" id="div59">
  <div class="mySlides fade">
   <img src="assets/TV/Led-Star-Light/Led-Star-Light.JPG" alt="Star-Light">
@@ -1969,7 +2112,7 @@
  </div>
 </div>
 <div id="modal60" class="modal">
-  <span  onclick="spanA('modal60')"class="close">&times</span>
+  <span  onclick="spanA('modal60')" class="close">&times;</span>
   <div class="slideshow-container" id="div60">
  <div class="mySlides fade">
   <img src="assets/TV/Smart-Philips/Smart-Philips.JPG" alt="Smart-Philips">
@@ -1985,7 +2128,7 @@
  </div>
 </div>
 <div id="modal61" class="modal">
-  <span  onclick="spanA('modal61')"class="close">&times</span>
+  <span  onclick="spanA('modal61')" class="close">&times;</span>
   <div class="slideshow-container" id="div61">
  <div class="mySlides fade">
   <img src="assets/TV/Led-Nei/Led-Nei.JPG" alt="Led-Nei">
@@ -2001,7 +2144,7 @@
  </div>
 </div>
 <div id="modal62" class="modal">
-  <span  onclick="spanA('modal62')"class="close">&times</span>
+  <span  onclick="spanA('modal62')" class="close">&times;</span>
   <div class="slideshow-container" id="div62">
  <div class="mySlides fade">
   <img src="assets/TV/Led-Samsung/Led-Samsung.JPG" alt="Led-Samsung">
@@ -2017,7 +2160,7 @@
  </div>
 </div>	 
 <div id="modal63" class="modal">
-  <span  onclick="spanA('modal63')"class="close">&times</span>
+  <span  onclick="spanA('modal63')" class="close">&times;</span>
   <div class="slideshow-container" id="div63">
  <div class="mySlides fade">
   <img src="assets/TV/Smart-Sony/Smart-Sony.JPG" alt="Smart-Sony">
@@ -2033,7 +2176,7 @@
  </div>
 </div>
 <div id="modal64" class="modal">
-  <span  onclick="spanA('modal64')"class="close">&times</span>
+  <span  onclick="spanA('modal64')" class="close">&times;</span>
   <div class="slideshow-container" id="div64">
  <div class="mySlides fade">
   <img src="assets/TV/Led-Curbat/Led-Curbat.JPG" alt="Led-Curbat">
@@ -2049,7 +2192,7 @@
  </div>
 </div>
 <div id="modal65" class="modal">
-  <span  onclick="spanA('modal65')"class="close">&times</span>
+  <span  onclick="spanA('modal65')" class="close">&times;</span>
   <div class="slideshow-container" id="div65">
  <div class="mySlides fade">
   <img src="assets/TV/Led-Portabil/Led-Portabil.JPG" alt="Led-Portabil">
@@ -2065,7 +2208,7 @@
  </div>
 </div>
 <div id="modal66" class="modal">
-  <span  onclick="spanA('modal66')"class="close">&times</span>
+  <span  onclick="spanA('modal66')" class="close">&times;</span>
   <div class="slideshow-container" id="div66">
  <div class="mySlides fade">
   <img src="assets/TV/Smart-Toshiba/Smart-Toshiba.JPG" alt="Smart-Toshiba">
@@ -2081,7 +2224,7 @@
  </div>
 </div>
 <div id="modal67" class="modal">
-  <span  onclick="spanA('modal67')"class="close">&times</span>
+  <span  onclick="spanA('modal67')" class="close">&times;</span>
   <div class="slideshow-container" id="div67">
  <div class="mySlides fade">
   <img src="assets/TV/Led-32/Led%2032.JPG" alt="Smart-Toshiba">
@@ -2097,7 +2240,7 @@
  </div>
 </div>
 <div id="modal68" class="modal">
-  <span  onclick="spanA('modal68')"class="close">&times</span>
+  <span  onclick="spanA('modal68')" class="close">&times;</span>
   <div class="slideshow-container" id="div68">
  <div class="mySlides fade">
   <img src="assets/TV/Led-Akai/Led-Akai.JPG" alt="Smart-Toshiba">
@@ -2113,7 +2256,7 @@
  </div>
 </div>
 <div id="modal69" class="modal">
-  <span  onclick="spanA('modal69')"class="close">&times</span>
+  <span  onclick="spanA('modal69')" class="close">&times;</span>
   <div class="slideshow-container" id="div69">
  <div class="mySlides fade">
   <img src="assets/TV/Led-LG/Led-LG.JPG" alt="Smart-Toshiba">
@@ -2129,7 +2272,7 @@
  </div>
 </div>
 <div id="modal70" class="modal">
-  <span  onclick="spanA('modal70')"class="close">&times</span>
+  <span  onclick="spanA('modal70')" class="close">&times;</span>
   <div class="slideshow-container" id="div70">
  <div class="mySlides fade">
   <img src="assets/TV/QLED/QLED-1.jpg" alt="Smart-Toshiba">
@@ -2145,11 +2288,15 @@
  </div>
 </div>	 	
  </main>
+ <footer>
+	 <p> <sup class="c">©</sup> 2018 miniSHOP.ro. All Right Reserved. </p> 
+ </footer>
 
 
  <script>
 	
-	function shopFunction (pageName, el,  color, border ,color2) {
+	
+	function shopFunction (pageName, el,  color, border ,color2, active) {
 		var i, tab, grey;
 		tab = document.getElementsByClassName("tab");
 		for(i= 0; i<tab.length; i++){
@@ -2166,7 +2313,27 @@
 		el.style.backgroundColor = color;
 		el.style.border = border;
 		el.style.color = color2
+		
 	} 
+	var header = document.getElementById("button");
+var btns = header.getElementsByClassName("grey");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+var header = document.getElementById("button2");
+var btns = header.getElementsByClassName("grey");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active2");
+    current[0].className = current[0].className.replace(" active2", "");
+    this.className += " active2";
+  });
+}
+	 
 	function menuIcon(x){
 		
 		x.classList.toggle("change"); 
@@ -2213,7 +2380,7 @@ function createSliderObjects() {
 }
 
 function showDivs(divObject, n) {
-  debugger;
+  
   var i;
   if (n > divObject.slideContents.length) {
     divObject.slideIndex = 1
